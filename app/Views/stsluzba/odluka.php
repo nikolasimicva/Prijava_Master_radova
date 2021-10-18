@@ -1,9 +1,3 @@
-(Bez teme)
-Katarina Simic <katarinasimic1997@outlook.com>
-sub. 16.10.2021. 1:15
-Promenila sam SQL I promenila sam dole gde se ispisuje obrazlozenje I dodala sam da ispisuje datum
-
- 
 
 <?php
 
@@ -21,7 +15,7 @@ $link = [
 
  
 
-    'Насловна' => 'stsluzb/home',
+    'Насловна' => 'stsluzba/home',
 
  
 
