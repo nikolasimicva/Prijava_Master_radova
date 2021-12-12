@@ -238,7 +238,6 @@ class Rukovodilac extends BaseController
             $id_rad = $query->getResultArray()[0];
             $modul_id = (int)$this->request->getPost('modul');
 
-            
             $obrazlozenje = [
                 'id_rad' => $id_rad['id'],
                 'id_modul' => $modul_id,
