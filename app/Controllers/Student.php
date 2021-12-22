@@ -101,7 +101,6 @@ class Student extends BaseController
                 'deleted_at' => '',
             ];
 
-
             $id = $this->temaModel->insert($tema, true);
             $predmet = $this->request->getPost('predmet') ?? '';
             $prijava = [
