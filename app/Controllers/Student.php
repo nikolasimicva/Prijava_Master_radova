@@ -115,7 +115,6 @@ class Student extends BaseController
                 'datum' => $this->request->getPost('date'),
             ];
 
-
             $this->prijavaModel->insert($prijava);
 
             $komisija = [
