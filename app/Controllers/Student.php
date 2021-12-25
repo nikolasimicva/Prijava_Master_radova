@@ -146,8 +146,7 @@ class Student extends BaseController
         $temaUpit = $this->temaModel->builder()->where('id_student', user_id())
             ->get()->getResultArray()[0];
         $data['tema'] = $temaUpit;
-
-
+        
         // prijava
         $id_teme = $temaUpit['id'];
         $prijavaUpit = $this->prijavaModel->builder()->where('id_rad', $id_teme)
