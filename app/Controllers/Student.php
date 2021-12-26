@@ -220,7 +220,6 @@ class Student extends BaseController
                 return redirect()->to('student/home')->with('message', 'Тема је прослеђена, не можете је ажурирати');
             }
 
-
             $this->temaModel->update($tema_id, $tema);
             $id = $tema_id;
             $predmet = $this->request->getPost('predmet') ?? '';
