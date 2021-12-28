@@ -352,7 +352,6 @@ class Student extends BaseController
             'sorm' => 'required|min_length[15]',
         ])) {
 
-
             $query = $this->temaModel->builder()
                 ->select('id')
                 ->where('id_student', user_id())
