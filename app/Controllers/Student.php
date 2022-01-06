@@ -442,6 +442,7 @@ class Student extends BaseController
         $data['biografija'] = $biografijaUpit;
         return view('student/biografija_azuriraj', $data);
     }
+    
     public function biografija_azuriraj_sacuvaj()
     {
         if ($this->validate([
