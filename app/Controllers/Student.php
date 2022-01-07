@@ -512,7 +512,6 @@ class Student extends BaseController
         $idp = $prijavaUpit['id'];
         $prijava_id = $idp ?? '';
 
-
         // biografija
         $biografijaUpit = $this->bioModel->builder()->where('id_rad', $tema_id)->get()->getResultArray();
         $biografija_id = $biografijaUpit[0]['id'] ?? '';
