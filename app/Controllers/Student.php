@@ -581,7 +581,6 @@ class Student extends BaseController
         $prijavaUpit = $this->prijavaModel->builder()->where('id_rad', $tema_id)
             ->get()->getResultArray();
 
-
         // prosledjivanje podataka 
         foreach ($prijavaUpit as $priU) {
             $data[$priU['autor'] . '_prijava'] = $priU;
