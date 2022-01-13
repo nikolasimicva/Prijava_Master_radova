@@ -629,7 +629,6 @@ class Student extends BaseController
         }
         $data['tema'] = $temaUpit[0];
 
-
         // prijava
         $id_teme = $temaUpit[0]['id'];
         $prijavaUpit = $this->prijavaModel->builder()->where('id_rad', $id_teme)
