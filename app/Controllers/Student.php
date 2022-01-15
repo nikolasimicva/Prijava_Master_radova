@@ -635,13 +635,10 @@ class Student extends BaseController
             ->where('autor', 'student')->get()->getResultArray();
         $data['prijava'] = $prijavaUpit[0];
 
-
         // komisija
         $komisijaUpit = $this->komisijaModel->builder()->where('id_rad', $id_teme)
             ->get()->getResultArray()[0];
         $data['komisija'] = $komisijaUpit;
-
-
 
         $mentorUpit = $this->user->builder()
             ->select('username')
