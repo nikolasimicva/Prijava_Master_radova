@@ -291,7 +291,6 @@ class Stsluzba extends BaseController
         return view('stsluzba/biografija_azuriraj', $data);
     }
 
-    
     public function biografija_azuriraj_sacuvaj()
     {
         if ($this->validate([
