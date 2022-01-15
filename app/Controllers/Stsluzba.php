@@ -358,6 +358,7 @@ class Stsluzba extends BaseController
             return redirect()->to('stsluzba/home')->with('message', 'Немате пријављену тему');
         }
     }
+    
     public function ponisti_odluku_o_brisanju($prijava_id)
     {
         // prijava
