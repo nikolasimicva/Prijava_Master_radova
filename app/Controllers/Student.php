@@ -663,7 +663,6 @@ class Student extends BaseController
 
     public function pdf_obrazlozenje()
     {
-
         // tema
         $temaUpit = $this->temaModel->builder()->where('id_student', user_id())
             ->get()->getResultArray();
