@@ -686,7 +686,6 @@ class Student extends BaseController
             return redirect()->to('student/home')->with('message', 'Образложење није сачувано');
         }
 
-
         $data['obrazlozenje'] = $obrazlozenjeUpit[0];
 
         $modul = $this->modulModel->builder()->select('naziv')->where('id', $obrazlozenjeUpit[0]['id_modul'])->get()->getResultArray()[0];
