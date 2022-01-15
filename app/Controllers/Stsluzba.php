@@ -11,7 +11,6 @@ use App\Models\TemaModel;
 use App\Models\UsersModel;
 use App\Models\KomentariModel;
 
-
 class Stsluzba extends BaseController
 {
     protected $user;
