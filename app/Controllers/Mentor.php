@@ -11,7 +11,6 @@ use App\Models\TemaModel;
 use App\Models\UsersModel;
 use App\Models\KomentariModel;
 
-
 class Mentor extends BaseController
 {
     protected $user;
