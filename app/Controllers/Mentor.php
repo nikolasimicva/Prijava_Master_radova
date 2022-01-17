@@ -110,8 +110,8 @@ class Mentor extends BaseController
         $data['prethodni_komentari'] = $komentari;
         return view('mentor/prijava_azuriraj', $data);
     }
-    // Mentor - azuriraj prijavu
 
+    // Mentor - azuriraj prijavu
     public function prijava_azuriraj_sacuvaj()
     {
         if ($this->validate([
