@@ -193,7 +193,6 @@ class Rukovodilac extends BaseController
 
     public function obrazlozenje_azuriraj($id_student)
     {
-
         $data['id_student'] = $id_student;
 
         $modul = $this->modulModel->findAll();
