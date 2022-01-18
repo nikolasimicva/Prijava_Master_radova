@@ -50,7 +50,6 @@ class Rukovodilac extends BaseController
 
     public function prijava_azuriraj($id)
     {
-
         // prijava
         $prijavaUpit = $this->prijavaModel->builder()->where('id', $id)
         ->get()->getResultArray()[0];
