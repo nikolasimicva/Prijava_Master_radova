@@ -196,7 +196,6 @@ class Mentor extends BaseController
     {
         $data['id_student'] = $id_student;
 
-
         $modul = $this->modulModel->findAll();
         $data['modul'] = $modul;
 
