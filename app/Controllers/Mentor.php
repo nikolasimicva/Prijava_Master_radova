@@ -254,7 +254,6 @@ class Mentor extends BaseController
                 return redirect()->to('mentor/home')->with('message', 'Тема је прослеђена, не можете је ажурирати');
             }
 
-
             $obrazlozenje_id_upit = $this->obrazlozenjeModel->builder()->where('id_rad', $tema_id)->get()->getResultArray()[0];
             $obrazlozenje_id = $obrazlozenje_id_upit['id'];
 
