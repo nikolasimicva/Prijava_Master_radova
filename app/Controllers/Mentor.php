@@ -49,8 +49,7 @@ class Mentor extends BaseController
 
     // Mentor azurira vec postojecu prijavu odredjenog studenta
     public function prijava_azuriraj($id)
-    {   
-           
+    {       
        $mentorUpit = $this->user->builder()->where('id', user_id())->get()->getResultArray()[0];
        $data['mentor'] = $mentorUpit;
        $mentorId = $mentorUpit['id'];
