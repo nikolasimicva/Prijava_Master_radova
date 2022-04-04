@@ -60,8 +60,7 @@ class Mentor extends BaseController
         $data['prijava'] = $prijavaUpit;
  
 
-
-        
+     
         // tema
         $tema_id = $prijavaUpit['id_rad'];
         $temaUpit = $this->temaModel->builder()->where('id',  $tema_id)->get()->getResultArray()[0];
