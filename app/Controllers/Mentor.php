@@ -55,7 +55,6 @@ class Mentor extends BaseController
        $mentorId = $mentorUpit['id'];
     
 
-       
         // prijava
         $prijavaUpit = $this->prijavaModel->builder()->where('id', $id)
         ->get()->getResultArray()[0];
