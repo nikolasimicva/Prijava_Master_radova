@@ -51,8 +51,7 @@ class Mentor extends BaseController
     public function prijava_azuriraj($id)
     {  
 
-
-      
+     
        $mentorUpit = $this->user->builder()->where('id', user_id())->get()->getResultArray()[0];
        $data['mentor'] = $mentorUpit;
        $mentorId = $mentorUpit['id'];
