@@ -54,8 +54,7 @@ class Mentor extends BaseController
 
 
 
-
-        
+ 
        $mentorUpit = $this->user->builder()->where('id', user_id())->get()->getResultArray()[0];
        $data['mentor'] = $mentorUpit;
        $mentorId = $mentorUpit['id'];
