@@ -22,6 +22,7 @@ $this->section('content');
                     class="form-control mb-3 <?php if (session('errors.biografija')) : ?>is-invalid<?php endif ?>"
                     name="tekst" aria-describedby="biografija" placeholder="Унесите вашу биографију"
                     <?php $biografija_tekst = old('tekst') ?? $biografija['tekst'] ?>><?= $biografija_tekst ?></textarea>
+            
             </div>
             <h3 class="mt-6">Коментари</h3>
             <div class="form-group">
