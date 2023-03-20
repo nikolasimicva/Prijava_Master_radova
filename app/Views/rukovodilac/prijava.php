@@ -51,9 +51,7 @@ $this->section('content');
                             selected<?php endif; ?>><?= $m['username'] ?></option>
                         <?php endforeach; ?>
                     </select>
-
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="izbor" onclick="rukPredmet()"
                         id="izbor1" value="option1" checked>
