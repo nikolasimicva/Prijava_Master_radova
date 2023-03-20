@@ -80,7 +80,6 @@ $this->section('content');
         
         ?>
         
-      
         <td class="text-center">        
             <?php
             echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
