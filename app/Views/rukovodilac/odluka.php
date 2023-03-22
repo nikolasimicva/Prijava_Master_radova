@@ -93,5 +93,4 @@ $this->section('content');
     </div>
 </div>
 
-
 <?php $this->endSection(); ?>
