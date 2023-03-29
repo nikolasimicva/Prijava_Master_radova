@@ -43,6 +43,7 @@ $link = [
 <?php $this->endSection(); ?>
 
 <?php
+
 $this->section('content');
 ?>
 
