@@ -26,7 +26,7 @@ $this->section('content');
                         <?php $prijava_ime = old('ime') ?? $prijava['ime_prezime'] ?>
                         value="<?= $prijava_ime ?>">
                 </div>
-                
+
                 <br>
 
                 <div class="form-group">
@@ -37,7 +37,9 @@ $this->section('content');
                         <?php $prijava_indeks = old('indeks') ?? $prijava['indeks'] ?>
                         value="<?= $prijava_indeks ?>">
                 </div>
+
                 <br>
+                
                 <div class="form-group">
                     <label for="ipms">Изборно подручје мастер студија</label>
                     <input type="text"
