@@ -49,8 +49,9 @@ $this->section('content');
                         <?php $prijava_ipms = old('ipms') ?? $prijava['izborno_podrucje_MS'] ?>
                         value="<?= $prijava_ipms ?>">
                 </div>
-                
+
                 <br>
+                
                 <div class="form-group">
                     <label for="rukovodilac">Име и презиме руководиоца рада (ментора)</label>
                     <input type="text"
