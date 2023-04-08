@@ -133,7 +133,7 @@ $this->section('content');
                     </select>
  
                     <br>
-                    
+
                     <label for="clan3">Трећи члан комисије</label>
                     <select
                         class="form-control <?php if (session('errors.clan3')) : ?>is-invalid<?php endif ?> mt-3"
@@ -153,6 +153,7 @@ $this->section('content');
                         <?php $prijava_date = old('date') ?? $prijava['datum'] ?> name="date"
                         placeholder="Date" value="<?= $prijava_date ?>">
                 </div>
+                
                 <br>
                 <h3 class="mt-6">Претходни коментари</h3>
                 <div class="form-group">
