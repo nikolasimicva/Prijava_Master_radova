@@ -176,7 +176,6 @@ $this->section('content');
             <br/>
 
             <p></p>
-            
             <?php
             echo anchor('rukovodilac/vrati_mentoru/'.$id_student, 'Врати пријаву ментору', ['class' => 'btn btn-primary btn-block']);            
             ?>   
