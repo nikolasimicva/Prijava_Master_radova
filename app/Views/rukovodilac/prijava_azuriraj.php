@@ -131,7 +131,6 @@ $this->section('content');
                             selected<?php endif; ?>><?= $clan['username'] ?></option>
                         <?php endforeach; ?>
                     </select>
- 
                     <br>
 
                     <label for="clan3">Трећи члан комисије</label>
