@@ -186,9 +186,6 @@ $this->section('content');
             </form>
 </div>
 
-
-
-
 <script>
 function rukPredmet() {
     var izbor2 = document.getElementById("izbor2");
