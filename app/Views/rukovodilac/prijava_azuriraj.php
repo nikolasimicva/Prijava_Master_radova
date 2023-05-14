@@ -151,7 +151,6 @@ $this->section('content');
                         <?php $prijava_date = old('date') ?? $prijava['datum'] ?> name="date"
                         placeholder="Date" value="<?= $prijava_date ?>">
                 </div>
-                
                 <br>
                 <h3 class="mt-6">Претходни коментари</h3>
                 <div class="form-group">
