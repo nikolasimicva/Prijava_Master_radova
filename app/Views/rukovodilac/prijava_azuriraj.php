@@ -132,7 +132,6 @@ $this->section('content');
                         <?php endforeach; ?>
                     </select>
                     <br>
-
                     <label for="clan3">Трећи члан комисије</label>
                     <select
                         class="form-control <?php if (session('errors.clan3')) : ?>is-invalid<?php endif ?> mt-3"
