@@ -101,7 +101,6 @@ $this->section('content');
                 </div>
 
                 <br>
-                
                 <div class="form-group">
                     <label for="naslov_en">Наслов мастер рада на енглеском језику </label>
                     <input type="text"
