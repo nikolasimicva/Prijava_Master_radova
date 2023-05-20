@@ -99,7 +99,6 @@ $this->section('content');
                         <?php $prijava_naslov_sr = old('naslov_sr') ?? $prijava['naslov'] ?>
                         value="<?= $prijava_naslov_sr ?>">
                 </div>
-
                 <br>
                 <div class="form-group">
                     <label for="naslov_en">Наслов мастер рада на енглеском језику </label>
