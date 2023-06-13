@@ -77,7 +77,6 @@ $this->section('content');
                         кандидат код њега положио предмет
                     </label>
                 </div>
-
                 <div class="form-group">
                     <input type="text" id='predmet' disabled
                         class="form-control <?php if (session('errors.predmet')) : ?>is-invalid<?php endif ?>"
