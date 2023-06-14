@@ -68,7 +68,6 @@ $this->section('content');
                         Руководилац рада је ангажован на изборном подручју мастер студија
                     </label>
                 </div>
-                
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="izbor" onclick="rukPredmet()"
                         id="izbor2" value="option2">
