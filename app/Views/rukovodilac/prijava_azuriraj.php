@@ -51,7 +51,6 @@ $this->section('content');
                 </div>
 
                 <br>
-
                 <div class="form-group">
                     <label for="rukovodilac">Име и презиме руководиоца рада (ментора)</label>
                     <input type="text"
