@@ -39,7 +39,6 @@ $this->section('content');
                 </div>
 
                 <br>
-                
                 <div class="form-group">
                     <label for="ipms">Изборно подручје мастер студија</label>
                     <input type="text"
