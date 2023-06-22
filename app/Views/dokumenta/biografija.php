@@ -59,7 +59,6 @@
                             href="obrazlozenje_teme.php">Образложење теме</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
