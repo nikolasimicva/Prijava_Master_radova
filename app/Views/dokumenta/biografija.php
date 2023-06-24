@@ -96,7 +96,6 @@
                                     </div>
                                 </div>
 
-
                                 <div class="form-group row mb-4">
                                     <label for="headline"
                                         class="col-md-12 col-form-label text-md-center bio"><b>БИОГРАФИЈА</b></label>
