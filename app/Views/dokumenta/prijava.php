@@ -102,7 +102,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                
+
                                 <div class="form-group row mb-0">
                                     <label for="headline"
                                         class="col-md-12 col-form-label text-md-center app-theme"><u><i><b>Пријава
@@ -189,8 +189,6 @@
                                     });
                                 });
                                 </script>
-
-
 
                                 <div class="form-group row mb-0">
 
