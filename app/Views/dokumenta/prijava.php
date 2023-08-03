@@ -191,7 +191,6 @@
                                 </script>
 
                                 <div class="form-group row mb-0">
-
                                     <div class="col-md-1 solid-bt">
                                         <!-- <input type="text" id="text_2" class="form-control noborder;"> -->
                                     </div>
