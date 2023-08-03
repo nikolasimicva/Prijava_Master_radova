@@ -205,7 +205,6 @@
                                             class="form-control noborder"
                                             name="username">
                                     </div>
-
                                 </div>
 
                                 <div class="form-group row mb-0">
