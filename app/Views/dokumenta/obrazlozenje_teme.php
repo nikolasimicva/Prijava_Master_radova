@@ -187,6 +187,7 @@
                                             class="form-control text-place"></textarea>
                                     </div>
                                 </div>
+                                
                                 <div class="form-group row mb-0 ml-5">
                                     <label for="place_1"
                                         class="col-0 col-form-label ml-1 text-md-left"><b>Садржај
