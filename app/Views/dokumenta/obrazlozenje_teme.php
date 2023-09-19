@@ -157,7 +157,7 @@
                                     <label for="place_1"
                                         class="col-0 text-md-left">"</label>
                                 </div>
-                                
+
                                 <div class="form-group row mb-0 ml-5">
                                     <label for="place_1"
                                         class="col-0 col-form-label ml-1 text-md-left"><b>Област
@@ -264,6 +264,7 @@
                                             инж. Име Презиме</label>
                                     </div>
                                 </div>
+                                
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
                             </form>
