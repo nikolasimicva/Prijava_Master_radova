@@ -270,13 +270,14 @@
                             </form>
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="col-md-6">
                             <button type="submit" class="button-green">
                                 <b>Потврди</b>
                             </button>
                         </div>
+                        
                         <div class="col-md-6">
                             <button type="submit" class="button-red">
                                 <b>Назад</b>
