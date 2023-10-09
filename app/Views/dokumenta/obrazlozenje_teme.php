@@ -283,7 +283,6 @@
                                 <b>Назад</b>
                             </button>
                         </div>
-                        
                     </div>
                 </div>
             </div>
