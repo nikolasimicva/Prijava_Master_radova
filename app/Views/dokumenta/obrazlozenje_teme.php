@@ -277,7 +277,6 @@
                                 <b>Потврди</b>
                             </button>
                         </div>
-
                         <div class="col-md-6">
                             <button type="submit" class="button-red">
                                 <b>Назад</b>
