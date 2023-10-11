@@ -270,7 +270,6 @@
                             </form>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-md-6">
                             <button type="submit" class="button-green">
