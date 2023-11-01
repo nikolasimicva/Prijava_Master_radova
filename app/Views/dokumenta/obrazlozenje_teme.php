@@ -279,7 +279,6 @@
                             <button type="submit" class="button-red">
                                 <b>Назад</b>
                             </button>
-
                         </div>
                     </div>
                 </div>
