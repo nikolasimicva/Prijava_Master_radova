@@ -71,7 +71,6 @@
                         <div class="card-body">
                             <form name="my-form" onsubmit="return validform()"
                                 action="" method="">
-
                                 <div class="form-group row mb-0">
                                     <div class="col-md-2">
                                         <img src="ETF.png"
