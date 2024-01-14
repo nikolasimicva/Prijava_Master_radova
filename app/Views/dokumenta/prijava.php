@@ -229,7 +229,6 @@
                                             class="form-control noborder-padding"></textarea>
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="suggestion"
                                         class="col-md-12 col-form-label text-md-left solid">Предлог
