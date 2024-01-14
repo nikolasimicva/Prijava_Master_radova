@@ -233,7 +233,6 @@
                                     <label for="suggestion"
                                         class="col-md-12 col-form-label text-md-left solid">Предлог
                                         Комисије за преглед и оцену</label>
-
                                 </div>
 
                                 <div class="form-group row mb-0 solid">
@@ -293,7 +292,6 @@
                                     <label for="user_name"
                                         class="col-md-4 col-form-label text-md-center solid">Руководилац
                                         изборног подручја</label>
-
                                 </div>
 
                                 <div class="form-group row mb-0">
