@@ -211,7 +211,6 @@
                                         class="col-md-12 col-form-label text-md-left solid">Наслов
                                         мастер рада на српском језику (написан
                                         ћирилицом)</label>
-
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-md-12 solid">
@@ -219,12 +218,10 @@
                                             class="form-control noborder-padding"></textarea>
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="work_headline_eng"
                                         class="col-md-12 col-form-label text-md-left solid">Наслов
                                         мастер рада на енглеском језику</label>
-
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-md-12 solid">
