@@ -300,6 +300,7 @@
                                             class="form-control noborder-text-center"
                                             name="username">
                                     </div>
+                                    
                                     <div class="col-md-4 solid">
                                         <input type="text" id="user_name"
                                             class="form-control noborder-text-center"
@@ -311,7 +312,7 @@
                                             class="form-control noborder-text-center"
                                             name="username">
                                     </div>
-                                    
+
                                 </div>
 
                                 <div class="form-group row mb-0 my-form">
