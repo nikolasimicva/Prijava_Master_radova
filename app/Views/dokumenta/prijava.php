@@ -388,7 +388,6 @@
                                             class="form-control noborder-padding"></textarea>
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="city"
                                         class="col col-form-label text-md-left solid-width">У
