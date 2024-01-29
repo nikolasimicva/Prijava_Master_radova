@@ -364,7 +364,6 @@
                                         class="col-md-11 col-form-label text-md-left solid">Прихвата
                                         се уз сугестије</label>
                                 </div>
-
                                 <!-- JavaScript for radio - only one can be checked -->
                                 <script>
                                 $(document).ready(function() {
