@@ -416,7 +416,6 @@
                                             name="username">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="ending_form"
                                         class="col-md-2 col-form-label text-md-left my-form-gray">Формулар
