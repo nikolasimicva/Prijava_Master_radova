@@ -380,7 +380,6 @@
                                     <label for="explanation"
                                         class="col-md-12 col-form-label text-md-left solid">Образложење
                                         и сугестије</label>
-
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-md-12 solid">
