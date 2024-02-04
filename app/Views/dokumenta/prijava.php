@@ -354,7 +354,6 @@
                                         class="col-md-11 col-form-label text-md-left solid">Одбија
                                         се</label>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <div class="col-md-1 solid">
                                         <input type="radio" id="radio"
