@@ -401,7 +401,6 @@
                                         <!-- <input type="text" id="city" class="form-control noborder" name="username"> -->
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="president_commission"
                                         class="col-md-5 col-form-label text-md-left solid">Председник
