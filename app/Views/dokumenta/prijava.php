@@ -326,7 +326,6 @@
                                             потписом кандидата)</span>
                                     </label>
                                 </div>
-
                                 <div class="form-group row mb-0 my-form">
                                     <label for="final"
                                         class="col-md-12 col-form-label text-md-left solid"><i><b>ЗАКЉУЧАК
