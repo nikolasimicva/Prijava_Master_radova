@@ -332,7 +332,6 @@
                                         class="col-md-12 col-form-label text-md-left solid"><i><b>ЗАКЉУЧАК
                                                 КОМИСИЈЕ ЗА СТУДИЈЕ II
                                                 СТЕПЕНА</b></i></label>
-
                                 </div>
                                 <div class="form-group row mb-0">
                                     <div class="col-md-1 solid">
