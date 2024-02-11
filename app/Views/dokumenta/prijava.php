@@ -314,7 +314,6 @@
                                     </div>
 
                                 </div>
-
                                 <div class="form-group row mb-0 my-form">
                                     <label for="text_between_two_tables"
                                         class="col-sm-12 col-form-label mb-0">
