@@ -312,7 +312,6 @@
                                             class="form-control noborder-text-center"
                                             name="username">
                                     </div>
-
                                 </div>
                                 <div class="form-group row mb-0 my-form">
                                     <label for="text_between_two_tables"
