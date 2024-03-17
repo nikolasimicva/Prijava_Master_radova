@@ -197,7 +197,6 @@
                                             class="form-control text-place"></textarea>
                                     </div>
                                 </div>
-
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
 
