@@ -199,7 +199,6 @@
                                 </div>
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
-
                                 <div
                                     class="form-group row mb-0 signature-space">
                                     <div class="col-3 ml-5">
