@@ -242,7 +242,6 @@
                                             _______________________</p>
                                     </div>
                                 </div>
-
                                 <div
                                     class="form-group row mb-0 signature-space">
                                     <div class="col-4 ml-5">
