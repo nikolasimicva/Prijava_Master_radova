@@ -212,7 +212,6 @@
                                             class="col-md-12 col-form-label text-md-left"><b>Кандидат:</b></label>
                                     </div>
                                 </div>
-
                                 <div
                                     class="form-group row mb-0 signature-space">
                                     <div class="col-3 ml-5">
