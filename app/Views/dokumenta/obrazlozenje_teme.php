@@ -163,7 +163,6 @@
                                             name="username">
                                     </div>
                                 </div>
-                                
                                 <div class="form-group row mb-0 ml-5">
                                     <label for="place_1"
                                         class="col-md-6 col-form-label ml-4 text-md-left">Наведена
