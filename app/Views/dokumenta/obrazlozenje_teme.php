@@ -120,7 +120,6 @@
                                                 name="username"></u>
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-1">
                                     <label for="headline"
                                         class="col-md-12 col-form-label text-md-center K2"><b>КОМИСИЈИ
