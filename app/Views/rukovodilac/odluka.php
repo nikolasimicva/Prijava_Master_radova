@@ -86,7 +86,6 @@ $this->section('content');
             echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
         </td>
-
         <?php 
         echo "</tr>"; }
         echo "</table>";
