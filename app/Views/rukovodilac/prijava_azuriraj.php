@@ -153,7 +153,6 @@ $this->section('content');
                 </div>
             </div>
             <button type="submit" class="btn btn-primary btn-block">Ажурирајте пријаву</button>
-
             <br/>
             <p></p>
             <?php
