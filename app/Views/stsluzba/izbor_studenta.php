@@ -129,6 +129,7 @@ $this->section('content');
             echo anchor('stsluzba/obrazlozenje_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
         </td>
+        
         <td class="text-center">       
             <?php
             echo anchor('stsluzba/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
