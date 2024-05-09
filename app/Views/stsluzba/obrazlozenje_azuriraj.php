@@ -26,6 +26,7 @@ $this->section('content');
                         <?php $prijava_ime = old('ime') ?? $prijava['ime_prezime'] ?>
                         value="<?= $prijava_ime ?>">
                 </div>
+                
                 <br>
                 <div class="form-group">
                     <label for="indeks">Број индекса</label>
