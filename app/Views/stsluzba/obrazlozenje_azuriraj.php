@@ -28,6 +28,7 @@ $this->section('content');
                 </div>
                 
                 <br>
+                
                 <div class="form-group">
                     <label for="indeks">Број индекса</label>
                     <input type="text"
