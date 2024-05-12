@@ -52,6 +52,7 @@ $this->section('content');
                         <?php endforeach; ?>
                     </select>
                 </div>
+                
                 <br>
                 <div class="form-group">
                     <label for="predmet">Предмет</label>
