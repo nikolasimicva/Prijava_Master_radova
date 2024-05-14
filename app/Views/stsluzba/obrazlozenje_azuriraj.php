@@ -54,7 +54,7 @@ $this->section('content');
                 </div>
                 
                 <br>
-                
+
                 <div class="form-group">
                     <label for="predmet">Предмет</label>
                     <input type="text"
@@ -66,6 +66,7 @@ $this->section('content');
                 </div>
 
                 <br>
+                
                 <div class="form-group">
                     <label for="oblast">Област мастер рада</label>
                     <input type="text"
