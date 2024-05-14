@@ -54,6 +54,7 @@ $this->section('content');
                 </div>
                 
                 <br>
+                
                 <div class="form-group">
                     <label for="predmet">Предмет</label>
                     <input type="text"
