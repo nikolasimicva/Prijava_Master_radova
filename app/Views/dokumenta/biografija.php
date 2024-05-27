@@ -58,8 +58,7 @@
                         <a class="nav-link"
                             href="obrazlozenje_teme.php">Образложење теме</a>
                     </li>
-                </ul>
-
+                </ul>s
             </div>
         </div>
     </nav>
