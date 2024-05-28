@@ -105,7 +105,6 @@
                                     </div>
                                 </div>
                                 <p>&nbsp;</p>
-
                                 <div
                                     class="form-group row mb-0 signature-space">
                                     <div class="col-4"></div>
