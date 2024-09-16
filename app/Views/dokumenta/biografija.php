@@ -91,6 +91,7 @@
                                                 011/324-8681</span>
                                         </label>
                                     </div>
+
                                 </div>
                                 <div class="form-group row mb-4">
                                     <label for="headline"
@@ -102,7 +103,9 @@
                                             class="form-control textarea-bio"></textarea>
                                     </div>
                                 </div>
+
                                 <p>&nbsp;</p>
+                                
                                 <div
                                     class="form-group row mb-0 signature-space">
                                     <div class="col-4"></div>
