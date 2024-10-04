@@ -36,8 +36,7 @@ $link = [
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
     <div class="sb-sidenav-menu">
         <div class="nav">
-            <div class="sb-sidenav-menu-heading">Корисник
-            </div>
+            <div class="sb-sidenav-menu-heading">Корисник</div>
             <a class="nav-link" href="index.html">
             </a>
             <div class="sb-sidenav-menu-heading">Статус пријаве
