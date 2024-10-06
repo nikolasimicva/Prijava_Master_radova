@@ -67,7 +67,6 @@ $this->section('content');
                         <?php $obrazlozenje_oblast = old('oblast') ?? $obrazlozenje['oblast_rada'] ?>
                         value="<?= $obrazlozenje_oblast ?>">
                 </div>
-
                 <br>
                 <div class="form-group mb-3">
                     <label for="pcmm">Предмет, циљ и методе мастер рада:</label>
