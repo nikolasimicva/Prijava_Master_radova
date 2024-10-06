@@ -58,7 +58,6 @@ $this->section('content');
                         value="<?= $obrazlozenje_predmet ?>">
 
                 </div>
-
                 <br>
                 <div class="form-group">
                     <label for="oblast">Област мастер рада</label>
