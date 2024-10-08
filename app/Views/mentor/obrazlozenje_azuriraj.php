@@ -87,7 +87,6 @@ $this->section('content');
                         placeholder="Садржај и очекивани резултати мастер рада:"
                         <?php $obrazlozenje_sorm = old('sorm') ?? $obrazlozenje['sadrzaj_ocekivani_rezultat'] ?>><?= $obrazlozenje_sorm ?></textarea>
                 </div>
-
                 <br>
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
