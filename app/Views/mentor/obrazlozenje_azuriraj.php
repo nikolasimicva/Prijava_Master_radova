@@ -8,7 +8,6 @@ $this->section('content');
 ?>
 <h1 class="mt-4">Образложење</h1>
 <br>
-
 <div class="container">
     <form action="<?= route_to('mentor/obrazlozenje_azuriraj_sacuvaj') ?>" method="post">
         <div class="row">
