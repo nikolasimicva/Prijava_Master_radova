@@ -6,7 +6,6 @@ $this->endSection();
 
 $this->section('content');
 ?>
-
 <h1 class="mt-4">Образложење</h1>
 <br>
 
