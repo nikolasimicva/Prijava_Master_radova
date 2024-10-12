@@ -76,7 +76,6 @@ $this->section('content');
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
-        
         ?>
         
         
