@@ -100,7 +100,6 @@ $this->section('content');
                 </div>
             </div>
             <div class="col-sm-6 col-xs-12">
-
             <div class="form-group">
                     <label for="komisija">Предлог Комисије за преглед и оцену </label>
                     <br>
