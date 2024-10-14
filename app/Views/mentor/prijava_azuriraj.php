@@ -130,7 +130,6 @@ $this->section('content');
                         <?php endforeach; ?>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="date">Датум</label>
                     <input type="date"
