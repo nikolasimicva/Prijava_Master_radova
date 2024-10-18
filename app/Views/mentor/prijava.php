@@ -41,6 +41,7 @@ $this->section('content');
                         placeholder="Изборно подручје мастер студија" value="<?= old('ipms') ?>">
                 </div>
                 <br>
+                
                 <div class="form-group">
                     <label for="rukovodilac">Име и презиме руководиоца рада (ментора)</label>
                     <select
