@@ -29,8 +29,6 @@ $link = [
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
   
-
-
 <link rel="stylesheet" href="style.css">
 
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
