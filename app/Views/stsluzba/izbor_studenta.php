@@ -142,7 +142,6 @@ $this->section('content');
         echo "</tr>"; }
         echo "</table>";
         ?>
-
     </div>
 </div>
                         </div>
