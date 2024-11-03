@@ -158,5 +158,4 @@ $this->section('content');
         crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
 
-
 <?php $this->endSection(); ?>
