@@ -229,5 +229,6 @@ function myFunction_odbija_se(id_student) {
             }
         });
 }
+
 </script>
 <?php $this->endSection(); ?>
