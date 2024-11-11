@@ -23,7 +23,6 @@ $link = [
 
             <div class="sb-sidenav-menu-heading">Статус пријаве
             </div>
-
             <div class="sb-sidenav-menu-heading">Операције
             </div>
             <a class="nav-link" href="index.html">
