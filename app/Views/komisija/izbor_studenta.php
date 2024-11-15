@@ -83,7 +83,6 @@ $this->section('content');
                             Taбела са студентима
                         </div>
                         <div class="card-body">
-
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
