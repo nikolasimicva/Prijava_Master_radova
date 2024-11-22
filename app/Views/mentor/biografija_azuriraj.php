@@ -23,7 +23,6 @@ $this->section('content');
                     name="tekst" aria-describedby="biografija" placeholder="Унесите вашу биографију"
                     <?php $biografija_tekst = old('tekst') ?? $biografija['tekst'] ?>><?= $biografija_tekst ?></textarea>
             </div>
-
             <h3 class="mt-6">Коментари</h3>
             <div class="form-group">
                 <label for="komentari"></label>
