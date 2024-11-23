@@ -22,8 +22,7 @@ $this->section('content');
                 <div class="small text-white"><i class="fas fa-angle-right"></i>
                 </div>
             </div>
-        </div>
-        
+        </div> 
     </div>
     <div class="col-xl-3 col-md-6">
         <div class="card bg-dark text-white mb-4">
