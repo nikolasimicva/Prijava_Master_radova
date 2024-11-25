@@ -134,7 +134,6 @@ $this->section('content');
 
     </div>
 </div>
-
                         </div>
                     </div>
                 </div>
@@ -148,6 +147,5 @@ $this->section('content');
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
         crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
-
 
 <?php $this->endSection(); ?>
