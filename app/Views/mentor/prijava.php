@@ -41,7 +41,6 @@ $this->section('content');
                         placeholder="Изборно подручје мастер студија" value="<?= old('ipms') ?>">
                 </div>
                 <br>
-                
                 <div class="form-group">
                     <label for="rukovodilac">Име и презиме руководиоца рада (ментора)</label>
                     <select
@@ -123,7 +122,6 @@ $this->section('content');
                     </select>
                     <br>
                 </div>
-
                 <div class="form-group">
                     <label for="date">Датум</label>
                     <input type="date"
@@ -143,9 +141,6 @@ $this->section('content');
             <button type="submit" class="btn btn-primary btn-block">Пошаљите пријаву</button>
     </form>
 </div>
-
-
-
 
 <script>
 function rukPredmet() {
