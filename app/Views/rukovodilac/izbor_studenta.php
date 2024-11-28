@@ -111,7 +111,6 @@ $this->section('content');
                 <th class="text-center">Пријава</th>
                 <th class="text-center">Образложење теме</th>
                 <th class="text-center">Биографија</th>
-
             </tr>
         </thead>
         <?php
@@ -143,7 +142,6 @@ $this->section('content');
 
     </div>
 </div>
-
                         </div>
                     </div>
                 </div>
