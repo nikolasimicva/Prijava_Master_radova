@@ -23,7 +23,6 @@ $this->section('content');
             </div>
         </div>
     </div>
-    
     <div class="col-xl-3 col-md-6">
         <div class="card bg-dark text-white mb-4">
             <div class="card-body">Факултет</div>
@@ -34,7 +33,6 @@ $this->section('content');
             </div>
         </div>
     </div>
-
     <div class="col-xl-3 col-md-6">
         <div class="card bg-dark text-white mb-4">
             <div class="card-body">Студентска служба</div>
@@ -45,7 +43,6 @@ $this->section('content');
             </div>
         </div>
     </div>
-
     <div class="col-xl-3 col-md-6">
         <div class="card bg-dark text-white mb-4">
             <div class="card-body">Упис</div>
