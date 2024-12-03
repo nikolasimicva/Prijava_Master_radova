@@ -18,7 +18,6 @@ $this->section('content');
         студентске службе</button>
 </div>
 
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="student" hidden>Верзија
         студента</button>
@@ -37,7 +36,6 @@ $this->section('content');
                         placeholder="Унесите вашу биографију"
                         <?php $biografija_tekst = $student['tekst'] ?? '' ?>><?= $biografija_tekst ?></textarea>
                 </div>
-
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
                     <label for="komentari"></label>
@@ -50,7 +48,6 @@ $this->section('content');
         </form>
     </div>
 </div>
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="mentor" hidden>Верзија
         ментора</button>
