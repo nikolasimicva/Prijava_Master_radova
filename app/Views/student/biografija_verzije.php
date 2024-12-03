@@ -66,7 +66,6 @@ $this->section('content');
                         placeholder="Унесите вашу биографију"
                         <?php $biografija_tekst = $mentor['tekst'] ?? '' ?>><?= $biografija_tekst ?></textarea>
                 </div>
-
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
                     <label for="komentari"></label>
@@ -79,7 +78,6 @@ $this->section('content');
         </form>
     </div>
 </div>
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="rukovodilac" hidden>Верзија
         руководиоца</button>
@@ -98,7 +96,6 @@ $this->section('content');
                         placeholder="Унесите вашу биографију"
                         <?php $biografija_tekst = $rukovodilac['tekst'] ?? '' ?>><?= $biografija_tekst ?></textarea>
                 </div>
-
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
                     <label for="komentari"></label>
@@ -111,7 +108,6 @@ $this->section('content');
         </form>
     </div>
 </div>
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="studentska_sluzba" hidden>Верзија
         студентске службе</button>
@@ -130,7 +126,6 @@ $this->section('content');
                         placeholder="Унесите вашу биографију"
                         <?php $biografija_tekst = $studentska_sluzba['tekst'] ?? '' ?>><?= $biografija_tekst ?></textarea>
                 </div>
-
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
                     <label for="komentari"></label>
