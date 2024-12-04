@@ -15,7 +15,6 @@ $this->section('content');
         <div class="row">
             <?= view('Myth\Auth\Views\_message_block') ?>
             <?= csrf_field() ?>
-
             <div class="form-group">
                 <label for="biografija">Унесите вашу биографију</label>
                 <textarea type="text" rows="10"
@@ -23,7 +22,6 @@ $this->section('content');
                     name="tekst" aria-describedby="biografija" placeholder="Унесите вашу биографију"
                     value="<?= old('biografija') ?>"></textarea>
             </div>
-
             <h3 class="mt-6">Коментари</h3>
             <div class="form-group">
                 <label for="komentari"></label>
