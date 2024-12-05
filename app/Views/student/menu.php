@@ -33,7 +33,6 @@ $link_pdf = [
             </li>
             <?php endforeach; ?>
 
-
             <div x-data="{ open: false }">
                 <a x-on:click="open = !open" class="nav-link">Проследите тему ментору</a>
 
