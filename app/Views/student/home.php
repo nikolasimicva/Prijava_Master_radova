@@ -58,7 +58,6 @@ $this->section('content');
         </div>
     </div>
 </div>
-
 <div class="col-xl-4 col-md-6">
     <div class="card bg-dark text-white mb-4">
         <div class="card-body">Налог - Студент</div>
