@@ -32,7 +32,6 @@ $link_pdf = [
                 <?= anchor($url, $text, ['class' => 'nav-link']) ?>
             </li>
             <?php endforeach; ?>
-
             <div x-data="{ open: false }">
                 <a x-on:click="open = !open" class="nav-link">Проследите тему ментору</a>
 
@@ -42,7 +41,6 @@ $link_pdf = [
                     </li>
                 </div>
             </div>
-
             <div class="sb-sidenav-menu-heading">Верзије докумената
             </div>
 
@@ -69,14 +67,12 @@ $link_pdf = [
                 <?php endforeach; ?>
 
             </div>
-
             <div class="sb-sidenav-menu-heading">Брисање теме
             </div>
             <div class="sb-sidenav-menu-heading">Размислите прво
             </div>
             <div x-data="{ open: false }">
                 <a x-on:click="open = !open" class="nav-link">Обришите пријављену тему</a>
-
                 <div x-cloak x-show="open" class="nav-link">
                     <li class="nav-item mx-0 mx-lg-1">
                         <?= anchor('student/brisanje_teme', 'Јесте ли сигурни?', ['class' => 'nav-link']) ?>
