@@ -43,7 +43,6 @@ $link_pdf = [
             </div>
             <div class="sb-sidenav-menu-heading">Верзије докумената
             </div>
-
             <div x-data="{ open: false }">
                 <a x-on:click="open = !open" class="nav-link">Листа верзија</a>
 
