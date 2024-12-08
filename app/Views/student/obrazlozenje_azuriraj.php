@@ -55,9 +55,7 @@ $this->section('content');
                         name="predmet" aria-describedby="predmet" placeholder="Предмет"
                         <?php $obrazlozenje_predmet = old('predmet') ?? $obrazlozenje['predmet'] ?>
                         value="<?= $obrazlozenje_predmet ?>">
-
                 </div>
-
                 <br>
                 <div class="form-group">
                     <label for="oblast">Област мастер рада</label>
