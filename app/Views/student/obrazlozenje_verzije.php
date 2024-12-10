@@ -17,8 +17,6 @@ $this->section('content');
     <button class="btn btn-secondary col-sm-3" id="button3" onClick="studentska_sluzba()">Верзија
         студентске службе</button>
 </div>
-
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="student" hidden>Верзија
         студента</button>
@@ -69,9 +67,7 @@ $this->section('content');
                             name="predmet" aria-describedby="predmet" placeholder="Предмет"
                             <?php $obrazlozenje_predmet = $student['predmet'] ?? '' ?>
                             value="<?= $obrazlozenje_predmet ?>">
-
                     </div>
-
                     <br>
                     <div class="form-group">
                         <label for="oblast">Област мастер рада</label>
