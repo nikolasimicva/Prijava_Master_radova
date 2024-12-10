@@ -77,7 +77,6 @@ $this->section('content');
                             <?php $obrazlozenje_oblast = $student['oblast_rada'] ?? '' ?>
                             value="<?= $obrazlozenje_oblast ?>">
                     </div>
-
                     <br>
                     <div class="form-group mb-3">
                         <label for="pcmm">Предмет, циљ и методе мастер рада:</label>
@@ -87,7 +86,6 @@ $this->section('content');
                             placeholder="Предмет, циљ и методе мастер рада:"
                             <?php $obrazlozenje_pcmm = $student['predmet_cilj_metode'] ?? '' ?>><?= $obrazlozenje_pcmm ?></textarea>
                     </div>
-
                 </div>
                 <div class="col-sm-6 col-xs-12">
 
