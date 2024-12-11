@@ -50,9 +50,7 @@ $this->section('content');
                         class="form-control <?php if (session('errors.predmet')) : ?>is-invalid<?php endif ?>"
                         name="predmet" aria-describedby="predmet" placeholder="Предмет"
                         value="<?= old('predmet') ?>">
-
                 </div>
-
                 <br>
                 <div class="form-group">
                     <label for="oblast">Област мастер рада</label>
