@@ -59,7 +59,6 @@ $this->section('content');
                         name="oblast" aria-describedby="oblast" placeholder="Област мастер рада"
                         value="<?= old('oblast') ?>">
                 </div>
-
                 <br>
                 <div class="form-group mb-3">
                     <label for="pcmm">Предмет, циљ и методе мастер рада:</label>
