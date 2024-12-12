@@ -68,9 +68,6 @@ $this->section('content');
                         placeholder="Предмет, циљ и методе мастер рада:"
                         value="<?= old('pcmm') ?>"></textarea>
                 </div>
-
-
-
             </div>
             <div class="col-sm-6 col-xs-12">
 
