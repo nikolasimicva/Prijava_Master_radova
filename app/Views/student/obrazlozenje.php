@@ -16,7 +16,6 @@ $this->section('content');
             <div class="col-sm-6 col-xs-12">
                 <?= view('Myth\Auth\Views\_message_block') ?>
                 <?= csrf_field() ?>
-
                 <div class="form-group">
                     <label for="ime">Име и презиме студента</label>
                     <input type="text"
