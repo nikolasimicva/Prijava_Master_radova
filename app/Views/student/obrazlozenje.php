@@ -69,7 +69,6 @@ $this->section('content');
                 </div>
             </div>
             <div class="col-sm-6 col-xs-12">
-
                 <div class="form-group">
                     <label for="sorm">Садржај и очекивани резултати мастер рада:</label>
                     <textarea type="text" rows="7"
