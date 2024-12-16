@@ -51,7 +51,6 @@ $this->section('content');
                     <div class="col-4 p-1 ">Дипл.
                         инж. Име Презиме
                     </div>
-
                 </div>
 
             </div>
