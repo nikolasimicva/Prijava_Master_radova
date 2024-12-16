@@ -40,14 +40,12 @@ $this->section('content');
                     <div class="col-4 p-1 "><b>(потпис
                             студента)</b>
                     </div>
-
                 </div>
                 <div class="row tekst">
                     <div class="col-8 p-1 "></div>
                     <div class="col-4 p-1 linija-do ">
                     </div>
                 </div>
-
                 <div class="row tekst">
                     <div class="col-8 p-1 "></div>
                     <div class="col-4 p-1 ">Дипл.
