@@ -52,7 +52,6 @@ $this->section('content');
                         инж. Име Презиме
                     </div>
                 </div>
-
             </div>
         </div>
 
