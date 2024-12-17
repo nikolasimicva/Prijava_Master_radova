@@ -57,7 +57,6 @@ $this->section('content');
     </div>
 </div>
 </div>
-
 <button class="btn btn-light mt-3" onclick="printDiv('element')">skini pdf</button>
 
 <script>
