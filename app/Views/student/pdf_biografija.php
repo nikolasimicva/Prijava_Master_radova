@@ -58,7 +58,6 @@ $this->section('content');
 </div>
 </div>
 <button class="btn btn-light mt-3" onclick="printDiv('element')">skini pdf</button>
-
 <script>
 function printDiv(divName) {
     var printContents = document.getElementById(divName).innerHTML;
