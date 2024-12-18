@@ -29,7 +29,6 @@ $this->section('content');
                     <div class="col-8 linija-do p-1 ">
                     </div>
                 </div>
-
                 <div class="row tekst mt-2">
                     <div class="col-2 p-1  linija-do text-start "><b>Број индекса</b>
                     </div>
