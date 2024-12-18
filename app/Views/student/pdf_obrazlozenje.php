@@ -21,7 +21,6 @@ $this->section('content');
                             011/324-8681</span>
                     </label>
                 </div>
-
                 <div class="row tekst mt-4">
                     <div class="col-1 p-1 pl-0 ml-0 linija-do text-start"><b>Кандидат</b>
                     </div>
