@@ -63,7 +63,6 @@ $this->section('content');
                         <div class="col-12 p-1 text-break"><?= $obrazlozenje['predmet'] ?>
                         </div>
                     </div>
-
                     <div class="row tekst mb-2">
                         <div class="col-3 p-1  text-start"><b>Област
                                 мастер рада:</b>
