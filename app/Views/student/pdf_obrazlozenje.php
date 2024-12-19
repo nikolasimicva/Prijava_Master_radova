@@ -41,14 +41,12 @@ $this->section('content');
                     <div class="col-3 p-1  linija-do">
                     </div>
                 </div>
-
                 <div class="row tekst  mt-2">
                     <div class="col-12  p-3 "><b>КОМИСИЈИ
                             ЗА СТУДИЈЕ II СТЕПЕНА АКАДЕМСКИХ
                             СТУДИЈА</b>
 
                     </div>
-
                     <div class="row tekst mb-2 mt-2">
                         <div class="col-2 p-1  text-start"><b>Предмет:</b>
                         </div>
