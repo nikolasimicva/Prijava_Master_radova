@@ -80,7 +80,6 @@ $this->section('content');
                         <div class="col-12 p-1 mt-2 text-break"><?= $obrazlozenje['oblast_rada'] ?>
                         </div>
                     </div>
-
                     <div class="row tekst mb-2">
                         <div class="col-12 p-1 text-start"><b>Предмет,
                                 циљ и методе мастер рада:</b>
