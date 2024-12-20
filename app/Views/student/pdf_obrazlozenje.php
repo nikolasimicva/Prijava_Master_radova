@@ -92,7 +92,6 @@ $this->section('content');
                         <div class="col-1 p-1 ">
                         </div>
                     </div>
-
                     <div class="row tekst mb-2 mt-2">
                         <div class="col-12 p-1 text-start"><b>Садржај
                                 и очекивани резултати мастер
