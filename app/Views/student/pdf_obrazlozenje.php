@@ -90,7 +90,6 @@ $this->section('content');
                             <?= $obrazlozenje['predmet_cilj_metode'] ?>
                         </div>
                         <div class="col-1 p-1 ">
-
                         </div>
                     </div>
 
