@@ -105,8 +105,6 @@ $this->section('content');
                         <div class="col-2 p-1 ">
                         </div>
                     </div>
-
-
                     <div class="row tekst">
                         <div class="col-3 p-1 "><b>Предложени
                                 ментор: </b>
