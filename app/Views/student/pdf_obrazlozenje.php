@@ -132,7 +132,6 @@ $this->section('content');
                         <div class="col-4 p-1 linija-do ">
                         </div>
                     </div>
-
                     <div class="row tekst">
                         <div class="col-3 p-1 ">Др
                             Име Презиме, звање
