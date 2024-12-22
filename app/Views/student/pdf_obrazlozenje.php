@@ -141,29 +141,20 @@ $this->section('content');
                         <div class="col-4 p-1 ">Дипл.
                             инж. Име Презиме
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </div>
-
 <button class="btn btn-light mt-3" onclick="printDiv('element')">skini pdf</button>
-
 <script>
 function printDiv(divName) {
     var printContents = document.getElementById(divName).innerHTML;
     var originalContents = document.body.innerHTML;
-
     document.body.innerHTML = printContents;
-
     window.print();
-
     document.body.innerHTML = originalContents;
 }
 </script>
-
 <?php $this->endSection(); ?>
