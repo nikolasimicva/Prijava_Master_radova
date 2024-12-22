@@ -113,7 +113,6 @@ $this->section('content');
                         <div class="col-2 p-1 "></div>
                         <div class="col-4 p-1 "><b>Кандидат:</b>
                         </div>
-
                     </div>
                     <div class="row tekst mb-3">
                         <div class="col-3 p-1 "><b>(потпис
@@ -124,7 +123,6 @@ $this->section('content');
                         <div class="col-4 p-1 "><b>(потпис
                                 студента)</b>
                         </div>
-
                     </div>
                     <div class="row tekst">
                         <div class="col-3 p-1 linija-do">
