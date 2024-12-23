@@ -12,8 +12,6 @@ $this->section('content');
 <div id="element" style="font-family: Times New Roman, Times, serif;">
     <div class="cotainer col-11">
         <div class="row justify-content-center">
-
-
             <div class="form-group text-center row mb-0">
                 <div>
                     <label for="name_phone_number" class="col-md-11 col-form-label text-md-center">
