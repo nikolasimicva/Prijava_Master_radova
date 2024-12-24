@@ -156,7 +156,6 @@ $this->section('content');
                 </div>
             </div>
 
-
             <div class="form-group row  mb-0 tekst"
                 style="font-family: Times New Roman, Times, serif;">
                 <label for="text_between_two_tables" class="col-sm-12 col-form-label mb-0"
@@ -173,7 +172,6 @@ $this->section('content');
                 <div class="col-12 p-1 linija-l linija-g linija-de linija-do">
                     ЗАКЉУЧАК КОМИСИЈЕ ЗА СТУДИЈЕ II СТЕПЕНА</div>
             </div>
-
 
             <div class="row tekst">
                 <div class="col-1 p-1 text-center linija-l linija-de linija-do">
@@ -226,11 +224,6 @@ $this->section('content');
 </div>
 
 <button class="btn btn-light mt-3" onclick="printDiv('element')">skini pdf</button>
-
-
-
-
-
 
 <script>
 function printDiv(divName) {
