@@ -7,8 +7,6 @@ $this->endSection();
 $this->section('content');
 ?>
 
-
-
 <div id="element" style="font-family: Times New Roman, Times, serif;">
     <div class="cotainer col-11">
         <div class="row justify-content-center">
