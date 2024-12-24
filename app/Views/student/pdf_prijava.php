@@ -28,9 +28,6 @@ $this->section('content');
                 </div>
             </div>
 
-
-
-
             <div class="row tekst">
                 <div class="col-4 p-1 linija-g  linija-l linija-do linija-de">Име и
                     презиме
