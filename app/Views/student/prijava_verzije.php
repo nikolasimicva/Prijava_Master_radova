@@ -175,8 +175,6 @@ $this->section('content');
     </div>
 </div>
 
-
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="mentor" hidden>Верзија
         ментора</button>
