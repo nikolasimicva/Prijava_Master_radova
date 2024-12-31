@@ -227,7 +227,6 @@ $this->section('content');
                                 <?= $m['username'] ?></option>
                             <?php endforeach; ?>
                         </select>
-
                     </div>
 
                     <div class="form-check">
