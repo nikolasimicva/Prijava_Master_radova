@@ -309,7 +309,6 @@ $this->section('content');
                         </select>
                         <br>
                     </div>
-
                     <div class="form-group">
                         <label for="date">Датум</label>
                         <input type="date"
@@ -327,7 +326,6 @@ $this->section('content');
                             value="<?= old('komentari') ?>"></textarea>
                     </div>
                 </div>
-
         </form>
     </div>
 </div>
