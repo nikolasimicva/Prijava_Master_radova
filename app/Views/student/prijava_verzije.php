@@ -330,7 +330,6 @@ $this->section('content');
     </div>
 </div>
 
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="rukovodilac" hidden>Верзија
         руководиоца</button>
@@ -383,9 +382,7 @@ $this->section('content');
                                 <?= $m['username'] ?></option>
                             <?php endforeach; ?>
                         </select>
-
                     </div>
-
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="izbor"
                             onclick="rukPredmet()" id="izbor1" value="option1"
