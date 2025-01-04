@@ -437,7 +437,7 @@ $this->section('content');
                         <label for="komisija">Предлог Комисије за преглед и оцену </label>
                         <br>
                         <label for="clan1" class="mt-3">Руководилац рада је први члан</label>
-                        <br>
+                        <br>            
                         <label for="clan2" class="mt-3">Други члан комисије</label>
                         <select
                             class="form-control <?php if (session('errors.clan2')) : ?>is-invalid<?php endif ?> mt-3"
@@ -461,7 +461,6 @@ $this->section('content');
                         </select>
                         <br>
                     </div>
-
                     <div class="form-group">
                         <label for="date">Датум</label>
                         <input type="date"
