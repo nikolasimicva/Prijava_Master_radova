@@ -478,7 +478,6 @@ $this->section('content');
                             value="<?= old('komentari') ?>"></textarea>
                     </div>
                 </div>
-
         </form>
     </div>
 </div>
