@@ -482,7 +482,6 @@ $this->section('content');
     </div>
 </div>
 
-
 <div x-data="{ open: false }" class="mt-3">
     <button x-on:click="open = !open" class="btn btn-primary" id="studentska_sluzba" hidden>Верзија
         студентске службе</button>
