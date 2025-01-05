@@ -533,9 +533,7 @@ $this->section('content');
                                 <?= $m['username'] ?></option>
                             <?php endforeach; ?>
                         </select>
-
                     </div>
-
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="izbor"
                             onclick="rukPredmet()" id="izbor1" value="option1"
