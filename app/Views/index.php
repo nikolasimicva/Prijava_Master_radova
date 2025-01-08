@@ -7,7 +7,6 @@ $this->section('sidebar');
         <div class="nav">
             <div class="sb-sidenav-menu-heading">Корисник
             </div>
-
         </div>
     </div>
 </nav>
@@ -68,6 +67,5 @@ $this->section('content');
         </div>
     </div>
 </div>
-
 
 <?php $this->endSection(); ?>
