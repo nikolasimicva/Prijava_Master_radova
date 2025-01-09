@@ -40,14 +40,12 @@
             <li class="nav-item">
                 <?php
                 $options = [];
-
                 if (logged_in()) {
 
                     $options[user()->username . ', одјава'] = 'logout';
                 } else {
                     $options['Пријавите се'] = 'login';
                 }
-
                 foreach ($options as $text => $url) : ?>
             <li class="nav-item mx-0 mx-lg-1">
                 <?= anchor($url, $text, ['class' => 'nav-link py-3 px-0 px-lg-3 rounded']); ?>
