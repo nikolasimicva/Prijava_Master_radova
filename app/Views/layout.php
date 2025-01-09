@@ -66,7 +66,6 @@
                     <?php $this->renderSection('content'); ?>
                 </div>
             </main>
-
             <br>
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
