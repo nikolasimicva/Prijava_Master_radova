@@ -102,7 +102,6 @@
                                             class="form-control textarea-bio"></textarea>
                                     </div>
                                 </div>
-
                                 <p>&nbsp;</p>
                                 
                                 <div
