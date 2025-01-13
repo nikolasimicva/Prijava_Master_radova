@@ -127,7 +127,6 @@
                                             name="index-number">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="work_area"
                                         class="col-md-4 col-form-label text-md-left solid">Изборно
