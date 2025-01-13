@@ -117,7 +117,6 @@
                                             name="full-name">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="index_number"
                                         class="col-md-4 col-form-label text-md-left solid">Број
