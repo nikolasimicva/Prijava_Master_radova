@@ -199,7 +199,6 @@
                                             name="username">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <label for="work_headline"
                                         class="col-md-12 col-form-label text-md-left solid">Наслов
