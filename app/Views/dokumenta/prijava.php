@@ -246,7 +246,6 @@
                                             name="username">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0 solid">
                                     <label for="place_3"
                                         class="col-0 col-form-label ml-1 text-md-left">3.</label>
