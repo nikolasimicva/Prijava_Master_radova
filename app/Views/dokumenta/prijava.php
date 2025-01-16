@@ -255,7 +255,6 @@
                                             name="username">
                                     </div>
                                 </div>
-
                                 <div class="form-group row mb-0 solid">
                                     <label for="city"
                                         class="col-md-2 col-form-label text-md-left">У
