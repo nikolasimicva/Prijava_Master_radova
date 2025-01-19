@@ -57,7 +57,6 @@ $this->section('content');
                         <?php $obrazlozenje_predmet = old('predmet') ?? $obrazlozenje['predmet'] ?>
                         value="<?= $obrazlozenje_predmet ?>">
                 </div>
-
                 <br>
                 
                 <div class="form-group">
