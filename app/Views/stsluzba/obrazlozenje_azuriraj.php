@@ -75,7 +75,6 @@ $this->section('content');
                         placeholder="Предмет, циљ и методе мастер рада:"
                         <?php $obrazlozenje_pcmm = old('pcmm') ?? $obrazlozenje['predmet_cilj_metode'] ?>><?= $obrazlozenje_pcmm ?></textarea>
                 </div>
-
             </div>
             <div class="col-sm-6 col-xs-12">
 
