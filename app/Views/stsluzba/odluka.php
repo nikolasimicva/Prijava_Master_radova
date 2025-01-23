@@ -1,24 +1,13 @@
 
 <?php
 
- 
 
 $this->extend('layout');
-
- 
-
 $this->section('sidebar');
 
  
-
 $link = [
-
- 
-
     'Насловна' => 'stsluzba/home',
-
- 
-
 ];
 
  
