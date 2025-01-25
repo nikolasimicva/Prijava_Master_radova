@@ -25,7 +25,6 @@ $link = [
     <meta name="description" content="" />
     <meta name="author" content="" />
 
- 
 
     <title>Tables - SB Admin</title>
 
