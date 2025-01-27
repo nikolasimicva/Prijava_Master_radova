@@ -50,13 +50,7 @@ $link = [
             </div>
             <a class="nav-link" href="index.html">
             </a>
-
- 
-
             <div class="sb-sidenav-menu-heading">Статус пријаве
-
- 
-
             </div>
 
  
