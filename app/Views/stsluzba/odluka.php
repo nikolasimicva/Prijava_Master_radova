@@ -31,24 +31,10 @@ $link = [
       rel="stylesheet" />
     <?php
 
- 
-
     helper('html');
-
- 
-
     helper('auth');
-
- 
-
     echo link_tag('css/style.css');
-
- 
-
     echo link_tag('css/styles.css');
-
- 
-
     ?>
 
  
