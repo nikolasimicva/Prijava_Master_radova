@@ -35,48 +35,20 @@ $link = [
     helper('auth');
     echo link_tag('css/style.css');
     echo link_tag('css/styles.css');
-    ?>
-
- 
+   
+   ?>
 
     <script
-
- 
-
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-
- 
-
         crossorigin="anonymous"></script>
-
 <link rel="stylesheet" href="style.css">
 
- 
-
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
-
- 
-
     <div class="sb-sidenav-menu">
-
- 
-
         <div class="nav">
-
- 
-
             <div class="sb-sidenav-menu-heading">Корисник
-
- 
-
             </div>
-
- 
-
             <a class="nav-link" href="index.html">
-
- 
-
             </a>
 
  
