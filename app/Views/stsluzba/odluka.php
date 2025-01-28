@@ -55,8 +55,6 @@ $link = [
 
             <?php foreach ($link as $text => $url) : ?>
 
- 
-
             <li class="nav-item mx-0 mx-lg-1">
 
  
