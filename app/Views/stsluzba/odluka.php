@@ -53,8 +53,6 @@ $link = [
             <div class="sb-sidenav-menu-heading">Статус пријаве
             </div>
 
- 
-
             <?php foreach ($link as $text => $url) : ?>
 
  
