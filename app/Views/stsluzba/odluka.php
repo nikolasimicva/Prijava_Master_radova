@@ -63,16 +63,8 @@ $link = [
 
             <?php endforeach; ?>
 
- 
-
             <a class="nav-link" href="index.html">
-
- 
-
                 Негде тамо далеко
-
- 
-
             </a>
 
  
