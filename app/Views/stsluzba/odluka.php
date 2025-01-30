@@ -66,25 +66,10 @@ $link = [
             <a class="nav-link" href="index.html">
                 Негде тамо далеко
             </a>
-
- 
-
             <div class="sb-sidenav-menu-heading">Операције
-
- 
-
             </div>
-
- 
-
             <a class="nav-link" href="index.html">
-
- 
-
                 Пријава теме
-
- 
-
             </a>
 
  
