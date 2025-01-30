@@ -71,25 +71,10 @@ $link = [
             <a class="nav-link" href="index.html">
                 Пријава теме
             </a>
-
- 
-
             <div class="sb-sidenav-menu-heading">Брисање теме
-
- 
-
             </div>
-
- 
-
             <a class="nav-link" href="index.html">
-
- 
-
                 Размислите прво
-
- 
-
             </a>
 
  
