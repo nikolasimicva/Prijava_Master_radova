@@ -76,41 +76,20 @@ $link = [
             <a class="nav-link" href="index.html">
                 Размислите прво
             </a>
-
- 
-
         </div>
-
- 
-
     </div>
-
- 
 
 </nav>
 
- 
-
 <?php $this->endSection(); ?>
-
- 
 
 <?php
 
- 
-
 $this->section('content');
-
- 
 
 ?>
 
- 
-
 <main>
-
- 
-
                 <div class="container-fluid px-4">
 
  
