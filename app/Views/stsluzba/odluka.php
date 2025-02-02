@@ -96,13 +96,7 @@ $this->section('content');
                         <li class="breadcrumb-item"><a
                                 href="naslovna.php">Насловна</a></li>
                     </ol>
-
- 
-
                     <div class="card mb-4">
-
- 
-
                         <div class="card-header">
 
  
