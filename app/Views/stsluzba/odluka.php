@@ -101,9 +101,6 @@ $this->section('content');
                             <i class="fas fa-table me-1"></i>
                             Taбела са студентима
                         </div>
-
- 
-
                         <div class="card-body">
 
 <div class="container">
