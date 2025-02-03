@@ -105,7 +105,6 @@ $this->section('content');
 
 <div class="container">
 
- 
 
     <div class="row col-md-9 col-md-offset-2 custyle">
 
