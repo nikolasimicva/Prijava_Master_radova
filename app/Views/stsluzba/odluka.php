@@ -110,13 +110,7 @@ $this->section('content');
         <?php
 
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
-
- 
-
         $data = user_id();
-
- 
-
          $query = "SELECT *
 
  
