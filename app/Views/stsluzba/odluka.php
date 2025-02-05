@@ -114,9 +114,6 @@ $this->section('content');
          $query = "SELECT *
                   FROM users join tema on (users.id=tema.id_student)
                   join prijava on (tema.id = prijava.id_rad) join komisija on (tema.id = komisija.id_rad) where komisija.id_odluke_kom != 0";
-
- 
-
         $result = mysqli_query($con, $query);
 
  
