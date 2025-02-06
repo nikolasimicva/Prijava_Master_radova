@@ -117,9 +117,6 @@ $this->section('content');
         $result = mysqli_query($con, $query);
         echo "<table>";
         ?>
-
- 
-
         <table class="table table-striped custab">
 
  
