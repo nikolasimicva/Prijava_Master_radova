@@ -120,9 +120,6 @@ $this->section('content');
         <table class="table table-striped custab">
         <thead>
             <tr>
-
- 
-
                 <th>ID пријаве</th>
 
  
