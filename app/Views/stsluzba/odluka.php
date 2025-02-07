@@ -118,13 +118,7 @@ $this->section('content');
         echo "<table>";
         ?>
         <table class="table table-striped custab">
-
- 
-
         <thead>
-
- 
-
             <tr>
 
  
