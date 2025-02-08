@@ -129,9 +129,6 @@ $this->section('content');
                 <th class="text-center"></th>
                 <th class="text-center"></th>
                 <th class="text-center"></th>
-
- 
-
                 <th class="text-center"></th>
 
  
