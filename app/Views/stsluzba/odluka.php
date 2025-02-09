@@ -132,9 +132,6 @@ $this->section('content');
                 <th class="text-center"></th>
                 <th class="text-center">Датум заседања</th>
             </tr>
-
- 
-
         </thead>
 
  
