@@ -133,13 +133,7 @@ $this->section('content');
                 <th class="text-center">Датум заседања</th>
             </tr>
         </thead>
-
- 
-
         <?php
-
- 
-
         while($row = mysqli_fetch_array($result)){  
 
  
