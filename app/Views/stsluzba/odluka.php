@@ -139,9 +139,6 @@ $this->section('content');
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
-
- 
-
         <td class="text-center">
 
  
