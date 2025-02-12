@@ -150,37 +150,13 @@ $this->section('content');
             ?>
         </td>
         <td class="text-center">      
-
- 
-
             <?php
-
- 
-
             echo anchor('stsluzba/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
-
- 
-
             ?>
-
- 
-
         </td>
-
- 
-
                 <td>
-
- 
-
                 <div class="form-group">
-
- 
-
                     <textarea type="text" rows="2"
-
- 
-
                         class="form-control <?php if (session('errors.obrazlozenje')) : ?>is-invalid<?php endif ?> mb-3"
 
  
