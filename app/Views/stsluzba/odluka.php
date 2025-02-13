@@ -158,17 +158,8 @@ $this->section('content');
                 <div class="form-group">
                     <textarea type="text" rows="2"
                         class="form-control <?php if (session('errors.obrazlozenje')) : ?>is-invalid<?php endif ?> mb-3"
-
- 
-
                         name="obrazlozenje" style="width:170%" id = "obrazlozenje" aria-describedby="obrazlozenje" readonly=readonly
-
- 
-
                         ><?php echo $row['obrazlozenje']?></textarea>
-
- 
-
                 </div>
 
  
