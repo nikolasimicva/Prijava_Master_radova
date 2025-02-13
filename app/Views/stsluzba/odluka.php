@@ -161,37 +161,13 @@ $this->section('content');
                         name="obrazlozenje" style="width:170%" id = "obrazlozenje" aria-describedby="obrazlozenje" readonly=readonly
                         ><?php echo $row['obrazlozenje']?></textarea>
                 </div>
-
- 
-
                 </td>
-
- 
-
                 <td></td>
-
- 
-
                 <td></td>
-
- 
-
                 <td></td>
-
- 
-
                 <td>
-
- 
-
                 <?php echo "<td style='padding-left: 0px; padding-right:0px'>" . $row['datum'] . "</td>";?>
-
- 
-
                 </td>
-
- 
-
         <?php
 
  
