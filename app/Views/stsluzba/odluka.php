@@ -169,25 +169,10 @@ $this->section('content');
                 <?php echo "<td style='padding-left: 0px; padding-right:0px'>" . $row['datum'] . "</td>";?>
                 </td>
         <?php
-
- 
-
         echo "</tr>"; }
-
- 
-
         echo "</table>";
-
- 
-
         ?>
-
- 
-
     </div>
-
- 
-
 </div>
 
  
