@@ -16,7 +16,6 @@ $this->section('content');
                 <?= csrf_field() ?>
 
 
-
                 <input type="hidden" name="id_student" hidden value="<?= $id_student ?>">
                 <input name="tema_id" hidden value="<?= $tema['id'] ?>">
                 <div class="form-group">
