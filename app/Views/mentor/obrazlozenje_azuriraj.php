@@ -14,7 +14,6 @@ $this->section('content');
             <div class="col-sm-6 col-xs-12">
                 <?= view('Myth\Auth\Views\_message_block') ?>
                 <?= csrf_field() ?>
-
                 <input type="hidden" name="id_student" hidden value="<?= $id_student ?>">
                 <input name="tema_id" hidden value="<?= $tema['id'] ?>">
                 <div class="form-group">
