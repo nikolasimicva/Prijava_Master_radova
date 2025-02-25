@@ -47,7 +47,6 @@ $link = [
 
 
 
-
 <?php
 $this->section('content');
 ?>
