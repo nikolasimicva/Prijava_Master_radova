@@ -84,7 +84,6 @@ $this->section('content');
 
 
 
-
         <td class="text-center">        
             <?php
             echo anchor('mentor/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
