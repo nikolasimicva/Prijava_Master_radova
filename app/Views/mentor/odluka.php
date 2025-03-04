@@ -71,6 +71,7 @@ $this->section('content');
                 <th class="text-center" style="width:10%">Измене</th>
             </tr>
         </thead>
+
         <?php
         while($row = mysqli_fetch_array($result)){      
         echo "<tr>";
