@@ -81,7 +81,6 @@ $this->section('content');
 
 
 
-
                 <div class="form-group">
                     <label for="naslov_sr">Наслов мастер рада на српском језику (написан
                         ћирилицом)</label>
