@@ -146,7 +146,6 @@ $this->section('content');
 
 
 
-
 <script>
 function rukPredmet() {
     var izbor2 = document.getElementById("izbor2");
