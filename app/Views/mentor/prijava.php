@@ -141,7 +141,6 @@ $this->section('content');
             <button type="submit" class="btn btn-primary btn-block">Пошаљите пријаву</button>
     </form>
 </div>
-
 <script>
 function rukPredmet() {
     var izbor2 = document.getElementById("izbor2");
