@@ -50,12 +50,14 @@ $link = [
     <div class="row col-md-9 col-md-offset-2 custyle">
     
         <?php
+
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $query = "SELECT *
                   FROM komisija join tema on (komisija.id_rad = tema.id) 
                   join prijava on (tema.id = prijava.id_rad) join users on (users.id = tema.id_student)"; 
         $result = mysqli_query($con, $query);
         echo "<table>"; 
+
         ?>
         <table class="table table-striped custab">
         <thead>
@@ -67,7 +69,14 @@ $link = [
                 <th class="text-center" style="width:10%">Измене</th>
             </tr>
         </thead>
+
         <?php
+
+
+
+
+
+
         while($row = mysqli_fetch_array($result)){     
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id_pred_kom'] . "</td>";
@@ -75,6 +84,7 @@ $link = [
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
         ?>
+
         <td class="text-center">        
             <?php
             echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
