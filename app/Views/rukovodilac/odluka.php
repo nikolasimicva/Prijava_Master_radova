@@ -75,8 +75,6 @@ $link = [
 
 
 
-
-
         while($row = mysqli_fetch_array($result)){     
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id_pred_kom'] . "</td>";
