@@ -78,12 +78,14 @@ $link = [
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
-        
+
         ?>
 
         <td class="text-center">        
             <?php
+
             echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
+            
             ?>
         </td>
         <?php 
