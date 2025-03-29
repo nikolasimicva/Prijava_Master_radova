@@ -72,15 +72,13 @@ $link = [
 
         <?php
 
-
-
-
         while($row = mysqli_fetch_array($result)){     
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id_pred_kom'] . "</td>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
+        
         ?>
 
         <td class="text-center">        
