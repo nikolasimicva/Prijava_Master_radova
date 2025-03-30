@@ -87,10 +87,13 @@ $link = [
             echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             
             ?>
-        </td>
+        
+    </td>
         <?php 
+
         echo "</tr>"; }
         echo "</table>";
+        
         ?>
     </div>
 </div>
