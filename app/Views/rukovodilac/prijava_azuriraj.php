@@ -42,9 +42,6 @@ $this->section('content');
                 
                 
                 
-                
-                
-                
                 </div>
                 <br>
                 <div class="form-group">
