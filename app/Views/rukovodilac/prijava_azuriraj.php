@@ -38,8 +38,6 @@ $this->section('content');
                         value="<?= $prijava_indeks ?>">
                 
                 
-                
-                
                 </div>
                 <br>
                 <div class="form-group">
