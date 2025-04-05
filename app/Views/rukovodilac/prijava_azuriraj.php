@@ -36,7 +36,6 @@ $this->section('content');
                         name="indeks" aria-describedby="indeks" placeholder="Број индекса"
                         <?php $prijava_indeks = old('indeks') ?? $prijava['indeks'] ?>
                         value="<?= $prijava_indeks ?>">
-                
                 </div>
                 <br>
                 <div class="form-group">
