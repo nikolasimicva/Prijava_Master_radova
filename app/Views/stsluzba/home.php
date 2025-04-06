@@ -58,5 +58,4 @@ $this->section('content');
 <div>Налог - Студентска служба</div>
 <?= view('Myth\Auth\Views\_message_block') ?>
 
-
 <?php $this->endSection(); ?>
