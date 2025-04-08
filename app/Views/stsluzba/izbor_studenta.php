@@ -97,7 +97,6 @@ $this->section('content');
             <tr>
                 <th>ID пријаве</th>
 
-
                 <th>Име и презиме</th>
                 <th class="text-center">Пријава</th>
                 <th class="text-center">Образложење теме</th>
