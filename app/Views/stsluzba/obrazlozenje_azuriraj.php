@@ -37,7 +37,6 @@ $this->section('content');
                 </div>
 
                 <br>
-
                 <div class="form-group">
                     <label for="modul">Модул</label>
                     <select
