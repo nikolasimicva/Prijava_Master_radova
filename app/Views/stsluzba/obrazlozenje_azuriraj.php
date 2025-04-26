@@ -38,7 +38,6 @@ $this->section('content');
 
 
 
-
                 <br>
                 <div class="form-group">
                     <label for="modul">Модул</label>
