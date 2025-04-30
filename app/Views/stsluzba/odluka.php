@@ -72,7 +72,6 @@ $link = [
             </a>
         </div>
     </div>
-
 </nav>
 
 <?php $this->endSection(); ?>
