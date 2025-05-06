@@ -123,12 +123,14 @@ $this->section('content');
                 <th class="text-center">Датум заседања</th>
             </tr>
         </thead>
+
         <?php
         while($row = mysqli_fetch_array($result)){  
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
+        
         <td class="text-center">
             <?php
             echo anchor('stsluzba/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
