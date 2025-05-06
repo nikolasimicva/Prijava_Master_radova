@@ -98,7 +98,6 @@ $this->section('content');
     <table class="table table-striped custab">
 
         <?php
-
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $data = user_id();
          $query = "SELECT *
@@ -107,6 +106,7 @@ $this->section('content');
         $result = mysqli_query($con, $query);
         echo "<table>";
         ?>
+
         <table class="table table-striped custab">
         <thead>
             <tr>
