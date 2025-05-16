@@ -190,4 +190,6 @@ $this->section('content');
     <script src="js/datatables-simple-demo.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <?php $this->endSection(); ?>
+    <?php 
+        $this->endSection(); 
+    ?>
