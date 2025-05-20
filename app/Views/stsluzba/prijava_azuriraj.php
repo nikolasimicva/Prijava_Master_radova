@@ -112,12 +112,17 @@ $this->section('content');
                     <select
                         class="form-control <?php if (session('errors.clan2')) : ?>is-invalid<?php endif ?> mt-3"
                         id="clan2" name="clan2">
+                        
                         <?php foreach ($mentori as $clan) : ?>
+
                         <option value="<?= $clan['id'] ?>"
                             <?php if ($clan['id'] == $clan2['id']) : ?>
                             selected<?php endif; ?>><?= $clan['username'] ?></option>
+                        
                         <?php endforeach; ?>
+
                     </select>
+
                     <br>
                     <label for="clan3">Трећи члан комисије</label>
                     <select
