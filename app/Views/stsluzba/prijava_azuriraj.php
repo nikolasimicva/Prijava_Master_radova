@@ -145,7 +145,10 @@ $this->section('content');
                     <label for="date">Датум</label>
                     <input type="date"
                         class="form-control <?php if (session('errors.date')) : ?>is-invalid<?php endif ?>"
-                        <?php $prijava_date = old('date') ?? $prijava['datum'] ?> name="date"
+                        
+                        <?php $prijava_date = old('date') ?? $prijava['datum'] ?>
+                        
+                        name="date"
                         placeholder="Date" value="<?= $prijava_date ?>">
                 </div>
                 <h3 class="mt-6">Претходни коментари</h3>
