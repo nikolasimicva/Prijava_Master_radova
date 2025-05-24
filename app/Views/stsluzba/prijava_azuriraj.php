@@ -169,7 +169,7 @@ $this->section('content');
             <div class='row'>
             <div class='col-2'>
             <p></p>
-            <button type="submit" class="btn btn-primary btn-block">Измени пријаву студента након одлуке К2 комисије</button>
+                <button type="submit" class="btn btn-primary btn-block">Измени пријаву студента након одлуке К2 комисије</button>
             <br/>
             </div>
             <div class='col-2'>
