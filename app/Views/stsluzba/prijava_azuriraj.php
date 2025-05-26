@@ -196,9 +196,11 @@ $this->section('content');
             </div>      
             <div class='col-2'>
             <p></p>
+            
             <?php
             echo anchor('stsluzba/vrati_mentoru/'.$id_student, 'Врати пријаву ментору', ['class' => 'btn btn-danger btn-block']);            
             ?>
+            
             </div>
             <div class='col-2'>
             <p></p>
