@@ -115,9 +115,11 @@ $this->section('content');
         ?>
         
         <td class="text-center"> 
+            
             <?php 
             echo anchor('stsluzba/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']); 
             ?>
+            
         </td>
         <td class="text-center"> 
             <?php
