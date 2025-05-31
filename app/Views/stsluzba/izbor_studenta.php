@@ -28,7 +28,6 @@ $link = [
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
-
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
     <div class="sb-sidenav-menu">
         <div class="nav">
@@ -59,13 +58,10 @@ $link = [
         </div>
     </div>
 </nav>
-
 <?php $this->endSection(); ?>
-
 <?php
 $this->section('content');
 ?>
-
 <!-- tabela iz bootstrap teme -->
 <main>
                 <div class="container-fluid px-4">
@@ -83,7 +79,6 @@ $this->section('content');
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
-        
         <?php
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $data = user_id();
@@ -93,7 +88,6 @@ $this->section('content');
         $result = mysqli_query($con, $query);
         echo "<table>"; 
         ?>
-
         <table class="table table-striped custab">
         <thead>
             <tr>
@@ -106,25 +100,21 @@ $this->section('content');
                 <th class="text-center">Поништи/обриши</th>
             </tr>
         </thead>
-        
         <?php
         while($row = mysqli_fetch_array($result)){       
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
-        
-        <td class="text-center"> 
-            
+        <td class="text-center">   
             <?php 
             echo anchor('stsluzba/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']); 
             ?>
-            
         </td>
-        <td class="text-center"> 
+        <td class="text-center">  
             <?php
             echo anchor('stsluzba/obrazlozenje_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
-            ?>
+            ?> 
         </td>
         <td class="text-center">       
             <?php
@@ -151,9 +141,7 @@ $this->section('content');
                     </div>
                 </div>
             </main>
-
 <!-- tabele iz bootstrapa -->
- 
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
@@ -161,5 +149,4 @@ $this->section('content');
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
         crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
-
 <?php $this->endSection(); ?>
