@@ -166,21 +166,17 @@ $this->section('content');
                 <td>
                 <?php echo "<td style='padding-left: 0px; padding-right:0px'>" . $row['datum'] . "</td>";?>
                 </td>
-
         <?php
         echo "</tr>"; }
         echo "</table>";
         ?>
-
     </div>
 </div>
                         </div>
                     </div>
                 </div>
             </main>
-
  <!-- tabele iz bootstrapa -->
-
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
@@ -189,7 +185,6 @@ $this->section('content');
         crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     <?php 
         $this->endSection(); 
     ?>
