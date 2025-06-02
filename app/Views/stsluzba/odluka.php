@@ -1,17 +1,12 @@
 
 <?php
-
 $this->extend('layout');
 $this->section('sidebar');
-
 $link = [
     'Насловна' => 'stsluzba/home',
 ];
-
 ?>
-
 <!-- tabela iz bootstrap teme -->
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,19 +19,15 @@ $link = [
         href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
       rel="stylesheet" />
     <?php
-
     helper('html');
     helper('auth');
     echo link_tag('css/style.css');
     echo link_tag('css/styles.css');
-   
    ?>
-
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
-
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
     <div class="sb-sidenav-menu">
         <div class="nav">
@@ -46,17 +37,12 @@ $link = [
             </a>
             <div class="sb-sidenav-menu-heading">Статус пријаве
             </div>
-
             <?php foreach ($link as $text => $url) : ?>
-
             <li class="nav-item mx-0 mx-lg-1">
 
                 <?= anchor($url, $text, ['class' => 'nav-link']) ?>
-
             </li>
-
             <?php endforeach; ?>
-
             <a class="nav-link" href="index.html">
                 Негде тамо далеко
             </a>
@@ -73,13 +59,10 @@ $link = [
         </div>
     </div>
 </nav>
-
 <?php $this->endSection(); ?>
-
 <?php
 $this->section('content');
 ?>
-
 <main>
                 <div class="container-fluid px-4">
                     <h1 class="mt-4">Студентска служба доноси одлуку након заседања К2 комисије</h1>
@@ -96,7 +79,6 @@ $this->section('content');
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
-
         <?php
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $data = user_id();
@@ -106,7 +88,6 @@ $this->section('content');
         $result = mysqli_query($con, $query);
         echo "<table>";
         ?>
-
         <table class="table table-striped custab">
         <thead>
             <tr>
@@ -123,7 +104,6 @@ $this->section('content');
                 <th class="text-center">Датум заседања</th>
             </tr>
         </thead>
-
         <?php
         while($row = mysqli_fetch_array($result)){  
         echo "<tr>";
