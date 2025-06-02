@@ -130,27 +130,20 @@ $this->section('content');
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
-        
         <td class="text-center">
-
             <?php
             echo anchor('stsluzba/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
-
         </td>
         <td class="text-center">
-
             <?php
             echo anchor('stsluzba/obrazlozenje_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
-
         </td>
         <td class="text-center">  
-
             <?php
             echo anchor('stsluzba/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
-            ?>
-            
+            ?>   
         </td>
                 <td>
                 <div class="form-group">
