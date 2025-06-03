@@ -122,7 +122,6 @@ $this->section('content');
                         <?php endforeach; ?>
 
                     </select>
-
                     <br>
                     <label for="clan3">Трећи члан комисије</label>
                     <select
@@ -174,21 +173,17 @@ $this->section('content');
             </div>
             <div class='col-2'>
             <p></p>
-            
             <?php
             echo anchor('stsluzba/vec_prihvacena/'.$id_student, 'Измени већ прихваћену пријаву за студента '.$id_student, ['class' => 'btn btn-primary btn-block']);            
             ?>
-
             </div> 
             <div class='col-1'>  
             <p></p>
             </div>           
             <div class='col-2'>  
-            <p></p>
-            
+            <p></p> 
             <?php
-            echo anchor('stsluzba/potvrdi_prijavu/'.$id_student, 'Потврди пријаву студента '.$id_student, ['class' => 'btn btn-success btn-block']);            
-            
+            echo anchor('stsluzba/potvrdi_prijavu/'.$id_student, 'Потврди пријаву студента '.$id_student, ['class' => 'btn btn-success btn-block']);             
             ?> 
             </div>
             <div class='col-1'>  
