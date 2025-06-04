@@ -130,10 +130,8 @@ $this->section('content');
 
                         <?php if ($clan['id'] == $clan3['id']) : ?>
 
-                            selected<?php endif; ?>><?= $clan['username'] ?></option>
-                        
+                            selected<?php endif; ?>><?= $clan['username'] ?></option> 
                         <?php endforeach; ?>
-
                     </select>
                 </div>
                 <div class="form-group">
