@@ -127,9 +127,7 @@ $this->section('content');
                         <?php foreach ($mentori as $clan) : ?>
                             
                         <option value="<?= $clan['id'] ?>"
-
                         <?php if ($clan['id'] == $clan3['id']) : ?>
-
                             selected<?php endif; ?>><?= $clan['username'] ?></option> 
                         <?php endforeach; ?>
                     </select>
