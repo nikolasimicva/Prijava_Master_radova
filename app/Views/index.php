@@ -10,7 +10,6 @@ $this->section('sidebar');
         </div>
     </div>
 </nav>
-
 <?php $this->endSection(); ?>
 
 <?php
