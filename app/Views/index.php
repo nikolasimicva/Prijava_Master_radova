@@ -11,7 +11,6 @@ $this->section('sidebar');
     </div>
 </nav>
 <?php $this->endSection(); ?>
-
 <?php
 $this->section('content');
 ?>
