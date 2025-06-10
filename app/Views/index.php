@@ -64,5 +64,4 @@ $this->section('content');
         </div>
     </div>
 </div>
-
 <?php $this->endSection(); ?>
