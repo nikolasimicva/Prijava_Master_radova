@@ -54,7 +54,6 @@
             </li>
         </ul>
         <!-- Sidebar Toggle-->
-
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
