@@ -24,7 +24,6 @@
 
 <body class="sb-nav">
     <nav class="sb-topnav navbar navbar-expand-sm navbar-dark bg-dark">
-
         <!-- Navbar Brand-->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
