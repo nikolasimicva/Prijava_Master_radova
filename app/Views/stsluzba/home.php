@@ -52,7 +52,6 @@ $this->section('content');
             </div>
         </div>
     </div>
-    
 </div>
 <div>Налог - Студентска служба</div>
 <?= view('Myth\Auth\Views\_message_block') ?>
