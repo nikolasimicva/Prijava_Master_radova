@@ -1,15 +1,15 @@
 <?php
+
 $this->extend('layout');
 $this->section('sidebar');
 echo view('stsluzba/menu');
 $this->endSection();
-
 $this->section('content');
+
 ?>
 
 <h1 class="mt-4">Образложење</h1>
 <br>
-
 <div class="container">
     <form action="<?= route_to('stsluzba/obrazlozenje_azuriraj_sacuvaj') ?>" method="post">
         <div class="row">
