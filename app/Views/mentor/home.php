@@ -59,5 +59,4 @@ $this->section('content');
 <div>Налог - Ментор</div>
 <?= view('Myth\Auth\Views\_message_block') ?>
 
-
 <?php $this->endSection(); ?>
