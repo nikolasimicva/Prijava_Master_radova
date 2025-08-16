@@ -152,4 +152,5 @@ function rukPredmet() {
     }
 }
 </script>
+
 <?php $this->endSection(); ?>
