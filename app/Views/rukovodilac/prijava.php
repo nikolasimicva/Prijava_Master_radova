@@ -3,7 +3,6 @@ $this->extend('layout');
 $this->section('sidebar');
 echo view('rukovodilac/menu');
 $this->endSection();
-
 $this->section('content');
 ?>
 
@@ -94,7 +93,6 @@ $this->section('content');
                 </div>
             </div>
             <div class="col-sm-6 col-xs-12">
-
                 <div class="form-group">
                     <label for="komisija">Предлог Комисије за преглед и оцену </label>
                     <br>
@@ -121,7 +119,6 @@ $this->section('content');
                     </select>
                     <br>
                 </div>
-
                 <div class="form-group">
                     <label for="date">Датум</label>
                     <input type="date"
@@ -141,7 +138,6 @@ $this->section('content');
             <button type="submit" class="btn btn-primary btn-block">Пошаљите пријаву</button>
     </form>
 </div>
-
 
 <script>
 function rukPredmet() {
