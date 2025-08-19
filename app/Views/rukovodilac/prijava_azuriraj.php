@@ -1,17 +1,14 @@
 <?php
-
 $this->extend('layout');
 $this->section('sidebar');
 echo view('rukovodilac/menu');
 $this->endSection();
-
 $this->section('content');
-
 ?>
 
 <h1 class="mt-4">Пријава</h1>
-<br>
 
+<br>
 <div class="container">
     <form action="<?= route_to('rukovodilac/prijava_azuriraj_sacuvaj') ?>" method="post">
         <div class="row">
