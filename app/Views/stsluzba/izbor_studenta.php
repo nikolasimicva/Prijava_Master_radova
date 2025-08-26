@@ -60,10 +60,12 @@ $link = [
         </div>
     </div>
 </nav>
+
 <?php $this->endSection(); ?>
 <?php
 $this->section('content');
 ?>
+
 <!-- tabela iz bootstrap teme -->
 <main>
                 <div class="container-fluid px-4">
