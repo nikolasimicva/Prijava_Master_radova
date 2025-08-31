@@ -67,8 +67,8 @@ $this->section('content');
 ?>
 
 <!-- tabela iz bootstrap teme -->
+
 <main>
-    
                 <div class="container-fluid px-4">
                     <h1 class="mt-4">Изаберите студента за обраду докумената</h1>
                     <ol class="breadcrumb mb-4">
