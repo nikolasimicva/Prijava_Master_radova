@@ -1,11 +1,9 @@
 <?php
-
 $this->extend('layout');
 $this->section('sidebar');
 echo view('stsluzba/menu');
 $this->endSection();
 $this->section('content');
-
 ?>
 
 <h1 class="mt-4">Образложење</h1>
