@@ -14,6 +14,7 @@ $this->section('sidebar');
 <?php $this->endSection(); ?>
 
 <?php $this->section('content'); ?>
+
 <h1 class="mt-4">Портал за рад са студентима</h1>
 <ol class="breadcrumb mb-4">
     <li class="breadcrumb-item active">Студентске пријаве</li>
