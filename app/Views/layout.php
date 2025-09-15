@@ -21,6 +21,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
 </head>
+
 <body class="sb-nav">
     <nav class="sb-topnav navbar navbar-expand-sm navbar-dark bg-dark">
         <!-- Navbar Brand-->
