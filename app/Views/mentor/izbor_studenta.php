@@ -4,7 +4,6 @@ $this->section('sidebar');
 $link = [
     'Насловна' => 'mentor/home',
     'Oдлука комисије' => 'mentor/odluka',
-
 ];
 ?>
 <!-- tabela iz bootstrap teme -->
