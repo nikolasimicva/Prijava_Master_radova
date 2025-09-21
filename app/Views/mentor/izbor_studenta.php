@@ -63,9 +63,7 @@ $link = [
 
 <?php $this->endSection(); ?>
 
-<?php
-$this->section('content');
-?>
+<?php $this->section('content'); ?>
 
 <!-- tabela iz bootstrap teme -->
 <main>
