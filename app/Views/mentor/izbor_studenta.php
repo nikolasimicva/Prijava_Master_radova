@@ -73,14 +73,12 @@ $link = [
                         <li class="breadcrumb-item"><a
                                 href="naslovna.php">Насловна</a></li>
                     </ol>
-
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
                             Taбела са студентима
                         </div>
-                        <div class="card-body">
-                            
+                        <div class="card-body">      
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
