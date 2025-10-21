@@ -94,7 +94,6 @@ $link = [
         <table class="table table-striped custab">
         <thead>
             <tr>
-
                 <th>ID пријаве</th>
                 <th>Име и презиме</th>
                 <th class="text-center">Пријава</th>
