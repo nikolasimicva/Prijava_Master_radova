@@ -25,7 +25,6 @@ $this->section('content');
                         value="<?= $prijava_ime ?>">
                 </div>
 
-
                 <br>
                 <div class="form-group">
                     <label for="indeks">Број индекса</label>
