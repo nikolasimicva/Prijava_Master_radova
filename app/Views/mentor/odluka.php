@@ -23,7 +23,6 @@ $link = [
                 <?= anchor($url, $text, ['class' => 'nav-link']) ?>
             </li>
             <?php endforeach; ?>
-            
             <a class="nav-link" href="index.html">
                 Негде тамо далеко
             </a>
@@ -43,8 +42,7 @@ $link = [
 
 <?php $this->endSection(); ?>
 
-<?php
-$this->section('content');
+<?php $this->section('content');
 ?>
 
 <h1 class="mt-4">Одредите одлуку о теми студента</h1>
