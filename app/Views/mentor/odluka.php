@@ -44,6 +44,15 @@ $link = [
 
 <?php $this->section('content'); ?>
 
+
+
+
+
+
+
+
+
+
 <h1 class="mt-4">Одредите одлуку о теми студента</h1>
 
 <div class="container">
