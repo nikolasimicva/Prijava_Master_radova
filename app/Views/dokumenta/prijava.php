@@ -45,7 +45,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
         <div class="container">
             <a class="navbar-brand" href="#">Мастер студије</a>
