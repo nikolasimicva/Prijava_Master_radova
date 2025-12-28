@@ -188,7 +188,6 @@
                                     <div class="col-md-1 solid-bt">
                                         <!-- <input type="text" id="text_2" class="form-control noborder;"> -->
                                     </div>
-
                                     <label for="text_2"
                                         class="col-md-3 col-form-label text-md-left solid-bt-br">код
                                         њега положио предмет:</label>
