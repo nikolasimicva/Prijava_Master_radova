@@ -280,7 +280,6 @@
                                         class="col-md-4 col-form-label text-md-center solid">Руководилац
                                         изборног подручја</label>
                                 </div>
-
                                 <div class="form-group row mb-0">
                                     <div class="col-md-4 solid">
                                         <input type="text" id="user_name"
