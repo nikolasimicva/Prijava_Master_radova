@@ -15,7 +15,6 @@ CLI::newLine();
 if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE)
 {
 	$backtraces = $exception->getTrace();
-
 	if ($backtraces)
 	{
 		CLI::write('Backtrace:', 'green');
