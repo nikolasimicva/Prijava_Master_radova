@@ -3,13 +3,11 @@ $this->extend('layout');
 $this->section('sidebar');
 echo view('stsluzba/menu');
 $this->endSection();
-
 $this->section('content');
 ?>
 
 <h1 class="mt-4">Биографија</h1>
 <br>
-
 <div class="container">
     <form action="<?= route_to('stsluzba/biografija_azuriraj_sacuvaj') ?>" method="post">
         <div class="row">
@@ -36,6 +34,5 @@ $this->section('content');
     </form>
 </div>
 <br>
-
 
 <?php $this->endSection(); ?>
