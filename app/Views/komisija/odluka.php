@@ -75,15 +75,19 @@ $this->section('content');
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
         ?>       
-        <td class="text-center">        
+        <td class="text-center">  
+
             <?php
             echo anchor('komisija/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+            
         </td>
+
         <?php 
         echo "</tr>"; }
         echo "</table>";
         ?>
+
     </div>
 </div>
 
