@@ -19,12 +19,14 @@ $link = [
     <link
         href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
         rel="stylesheet" />
+
     <?php
     helper('html');
     helper('auth');
     echo link_tag('css/style.css');
     echo link_tag('css/styles.css');
     ?>
+    
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
