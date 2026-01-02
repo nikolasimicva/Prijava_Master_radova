@@ -26,7 +26,7 @@ $link = [
     echo link_tag('css/style.css');
     echo link_tag('css/styles.css');
     ?>
-    
+
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
@@ -84,6 +84,7 @@ $link = [
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
+
         <?php
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $data = user_id();  
@@ -93,6 +94,7 @@ $link = [
         $result = mysqli_query($con, $query);
         echo "<table>"; 
         ?>
+
         <table class="table table-striped custab">
         <thead>
             <tr>
@@ -103,32 +105,41 @@ $link = [
                 <th class="text-center">Биографија</th>
             </tr>
         </thead>
+
         <?php
         while($row = mysqli_fetch_array($result)){      
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
+
         <td class="text-center"> 
+
             <?php 
             echo anchor('mentor/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']); 
             ?>
+
         </td>
         <td class="text-center"> 
+
             <?php
             echo anchor('mentor/obrazlozenje_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
-        <td class="text-center">       
+        <td class="text-center">    
+
             <?php
             echo anchor('mentor/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
 
         <?php 
         echo "</tr>"; }
         echo "</table>";
         ?>
+        
     </div>
 </div>
                         </div>
