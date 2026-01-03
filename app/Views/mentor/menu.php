@@ -5,6 +5,7 @@ $link = [
     'Oдлука комисије' => 'mentor/odluka',
 ];
 ?>
+
 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
     <div class="sb-sidenav-menu">
         <div class="nav">
@@ -15,11 +16,11 @@ $link = [
             </div>
             <div class="sb-sidenav-menu-heading">Операције
             </div>
-            <?php foreach ($link as $text => $url) : ?>
+                <?php foreach ($link as $text => $url) : ?>
             <li class="nav-item mx-0 mx-lg-1">
                 <?= anchor($url, $text, ['class' => 'nav-link']) ?>
             </li>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
             <div class="sb-sidenav-menu-heading">Статус пријаве
             </div>
             <div class="sb-sidenav-menu-heading">Операције
