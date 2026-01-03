@@ -44,13 +44,6 @@ $link = [
 
 <?php $this->section('content'); ?>
 
-
-
-
-
-
-
-
 <h1 class="mt-4">Одредите одлуку о теми студента</h1>
 
 <div class="container">
@@ -64,6 +57,7 @@ $link = [
         $result = mysqli_query($con, $query);
         echo "<table>"; 
         ?>
+
         <table class="table table-striped custab">
         <thead>
             <tr style="width:120%">
@@ -94,6 +88,7 @@ $link = [
         echo "</tr>"; }
         echo "</table>";
         ?>
+        
     </div>
 </div>
 
