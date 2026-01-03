@@ -3,9 +3,9 @@ $this->extend('layout');
 $this->section('sidebar');
 echo view('mentor/menu');
 $this->endSection();
-
 $this->section('content');
 ?>
+
 <h1 class="mt-4">Образложење</h1>
 <br>
 <div class="container">
