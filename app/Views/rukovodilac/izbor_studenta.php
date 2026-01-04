@@ -4,9 +4,9 @@ $this->section('sidebar');
 $link = [
     'Насловна' => 'rukovodilac/home',
     'Oдлука комисије' => 'rukovodilac/odluka',
-
 ];
 ?>
+
 <!-- tabela iz bootstrap teme -->
 <head>
     <meta charset="utf-8" />
@@ -64,9 +64,7 @@ $link = [
 
 <?php $this->endSection(); ?>
 
-<?php
-$this->section('content');
-?>
+<?php $this->section('content'); ?>
 
 <!-- tabela iz bootstrap teme -->
 <main>
@@ -133,12 +131,10 @@ $this->section('content');
             echo anchor('rukovodilac/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
         </td>
-
-        <?php 
-        echo "</tr>"; }
-        echo "</table>";
-        ?>
-
+            <?php 
+            echo "</tr>"; }
+            echo "</table>";
+            ?>
     </div>
 </div>
                         </div>
