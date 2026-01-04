@@ -3,7 +3,6 @@ $this->extend('layout');
 $this->section('sidebar');
 echo view('rukovodilac/menu');
 $this->endSection();
-
 $this->section('content');
 ?>
 
