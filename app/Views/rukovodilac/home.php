@@ -3,7 +3,6 @@ $this->extend('layout');
 $this->section('sidebar');
 echo view('rukovodilac/menu');
 $this->endSection();
-
 $this->section('content');
 ?>
 
@@ -54,6 +53,7 @@ $this->section('content');
     </div>
 </div>
 <div>Руководилац</div>
+
 <?= view('Myth\Auth\Views\_message_block') ?>
 
 <?php $this->endSection(); ?>
