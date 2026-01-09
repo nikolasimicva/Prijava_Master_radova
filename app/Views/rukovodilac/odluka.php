@@ -56,7 +56,6 @@ $link = [
                   join prijava on (tema.id = prijava.id_rad) join users on (users.id = tema.id_student)"; 
         $result = mysqli_query($con, $query);
         echo "<table>"; 
-
         ?>
         <table class="table table-striped custab">
         <thead>
@@ -70,29 +69,23 @@ $link = [
         </thead>
 
         <?php
-
         while($row = mysqli_fetch_array($result)){     
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id_pred_kom'] . "</td>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
-
         ?>
 
         <td class="text-center">        
             <?php
-
-            echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
-            
+            echo anchor('rukovodilac/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);  
             ?>
         
     </td>
         <?php 
-
         echo "</tr>"; }
-        echo "</table>";
-        
+        echo "</table>";  
         ?>
     </div>
 </div>
