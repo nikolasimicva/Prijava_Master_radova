@@ -8,7 +8,6 @@ $link = [
 ?>
 
 <!-- tabela iz bootstrap teme -->
- 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -67,7 +66,6 @@ $this->section('content');
 ?>
 
 <!-- tabela iz bootstrap teme -->
-
 <main>
                 <div class="container-fluid px-4">
                     <h1 class="mt-4">Изаберите студента за обраду докумената</h1>
@@ -148,7 +146,6 @@ $this->section('content');
             </main>
 
 <!-- tabele iz bootstrapa -->
- 
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
