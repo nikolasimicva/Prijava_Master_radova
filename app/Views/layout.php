@@ -70,7 +70,6 @@
                     <div class="d-flex align-items-center justify-content-between small">
                         <div class="text-muted">Copyright &copy; PHP тим 2
                             2021</div>
-
                     </div>
                 </div>
             </footer>
