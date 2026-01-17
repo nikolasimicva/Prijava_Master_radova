@@ -322,13 +322,14 @@ class Stsluzba extends BaseController
             $this->bioModel->update($biografijaUpit['id'], $data);
  
             $komentari = $this->request->getPost('komentari');
-   
+
             $komentar = [
                 'id_rad' => $id_rad,
                 'mentor_komentar' => '',
                 'ruk_komentar' => '',
                 'st_sluz_komentar' => $komentari,
             ];
+            
             $this->komentariModel->insert($komentar);
  
             return redirect()->to('stsluzba/home')->with('message', 'Успешно ажурирана биографија oд стране студентске службе');
