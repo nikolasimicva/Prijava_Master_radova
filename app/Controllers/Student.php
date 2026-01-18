@@ -196,7 +196,6 @@ class Student extends BaseController
             'date' => 'required',
 
         ])) {
-
             $rukRada = $this->request->getPost('rukRada');
             $clan2 = $this->request->getPost('clan2');
             $clan3 = $this->request->getPost('clan3');
