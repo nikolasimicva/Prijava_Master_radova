@@ -116,7 +116,6 @@ class Student extends BaseController
             ];
 
             $this->prijavaModel->insert($prijava);
-
             $komisija = [
                 'id_rad' => $id,
                 'id_pred_kom' => $rukRada,
@@ -125,7 +124,6 @@ class Student extends BaseController
             ];
 
             $this->komisijaModel->insert($komisija);
-
             return redirect()->to('student/home')->with('message', 'Успешно сачувана пријава');
         } else {
             return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
