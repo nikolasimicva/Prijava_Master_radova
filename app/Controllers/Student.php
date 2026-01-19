@@ -218,6 +218,7 @@ class Student extends BaseController
             }
 
             $this->temaModel->update($tema_id, $tema);
+            
             $id = $tema_id;
             $predmet = $this->request->getPost('predmet') ?? '';
             $prijava = [
