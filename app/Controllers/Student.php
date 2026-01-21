@@ -306,7 +306,6 @@ class Student extends BaseController
                 'sadrzaj_ocekivani_rezultat' => $this->request->getPost('sorm'),
             ];
 
-
             $this->obrazlozenjeModel->insert($obrazlozenje);
 
             return redirect()->to('student/home')->with('message', 'Успешно сачувано образложење');
