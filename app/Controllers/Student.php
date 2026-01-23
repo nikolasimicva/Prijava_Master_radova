@@ -513,7 +513,6 @@ class Student extends BaseController
         $biografijaUpit = $this->bioModel->builder()->where('id_rad', $tema_id)->get()->getResultArray();
         $biografija_id = $biografijaUpit[0]['id'] ?? '';
 
-
         $data['status'] = 1;
         if ($tema_id && $prijava_id && $biografija_id) {
             $this->temaModel->update($tema_id, $data);
