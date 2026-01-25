@@ -550,7 +550,6 @@ class Student extends BaseController
             ->get()->getResultArray()[0];
         $data['komisija'] = $komisijaUpit;
 
-
         // prosledjivanje podataka
         foreach ($prijavaUpit as $priU) {
             $data[$priU['autor']] = $priU;
