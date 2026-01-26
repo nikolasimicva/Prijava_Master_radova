@@ -381,6 +381,7 @@ class Stsluzba extends BaseController
             return redirect()->to('stsluzba/home')->with('message', 'Немате пријављену тему');
         }
     }
+    
     public function prosledi_komisiji($id_student)
     {
         $temaUpit = $this->temaModel->builder()->where('id_student', $id_student)->get()->getResultArray()[0];
