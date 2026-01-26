@@ -613,6 +613,7 @@ class Student extends BaseController
 
         return view('student/biografija_verzije', $data);
     }
+    
     public function pdf_prijava()
     {
         // tema
