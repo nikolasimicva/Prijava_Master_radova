@@ -35,7 +35,6 @@ $this->section('content');
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
