@@ -33,7 +33,6 @@ $this->section('content');
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.sendInstructions') ?></button>
                     </form>
-
                 </div>
             </div>
 
