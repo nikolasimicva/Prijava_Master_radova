@@ -60,7 +60,6 @@ $this->section('content');
                         <?php endif; ?>
 
                         <br>
-
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.loginAction') ?></button>
                     </form>
