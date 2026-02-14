@@ -63,9 +63,7 @@ $this->section('content');
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.loginAction') ?></button>
                     </form>
-
                     <hr>
-
                     <?php if ($config->allowRegistration) : ?>
                     <p><a href="<?= route_to('register') ?>"><?= lang('Auth.needAnAccount') ?></a>
                     </p>
