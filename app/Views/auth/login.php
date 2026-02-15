@@ -82,7 +82,6 @@ $this->section('content');
                     
                 </div>
             </div>
-
         </div>
     </div>
 </div>
