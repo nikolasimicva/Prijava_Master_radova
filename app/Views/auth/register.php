@@ -50,11 +50,9 @@ $this->section('content');
                         </div>
 
                         <br>
-
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.register') ?></button>
                     </form>
-
 
                     <hr>
 
