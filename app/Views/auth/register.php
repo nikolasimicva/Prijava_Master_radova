@@ -53,7 +53,6 @@ $this->section('content');
                             class="btn btn-primary btn-block"><?= lang('Auth.register') ?></button>
                     </form>
                     <hr>
-
                     <p><?= lang('Auth.alreadyRegistered') ?> <a
                             href="<?= route_to('login') ?>"><?= lang('Auth.signIn') ?></a></p>
                 </div>
