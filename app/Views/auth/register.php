@@ -48,7 +48,6 @@ $this->section('content');
                                 class="form-control <?php if (session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>"
                                 placeholder="<?= lang('Auth.repeatPassword') ?>" autocomplete="off">
                         </div>
-
                         <br>
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.register') ?></button>
