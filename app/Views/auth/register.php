@@ -57,7 +57,6 @@ $this->section('content');
                             href="<?= route_to('login') ?>"><?= lang('Auth.signIn') ?></a></p>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
