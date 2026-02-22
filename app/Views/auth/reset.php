@@ -40,9 +40,7 @@ $this->section('content');
                                 <?= session('errors.email') ?>
                             </div>
                         </div>
-
                         <br>
-
                         <div class="form-group">
                             <label for="password"><?= lang('Auth.newPassword') ?></label>
                             <input type="password"
