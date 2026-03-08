@@ -42,7 +42,7 @@ $this->section('content');
                         </div>
 
                         <br>
-                        
+
                         <div class="form-group">
                             <label for="password"><?= lang('Auth.newPassword') ?></label>
                             <input type="password"
@@ -71,7 +71,6 @@ $this->section('content');
 
                 </div>
             </div>
-
         </div>
     </div>
 </div>
