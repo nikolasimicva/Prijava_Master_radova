@@ -62,13 +62,10 @@ $this->section('content');
                                 <?= session('errors.pass_confirm') ?>
                             </div>
                         </div>
-
                         <br>
-
                         <button type="submit"
                             class="btn btn-primary btn-block"><?= lang('Auth.resetPassword') ?></button>
                     </form>
-
                 </div>
             </div>
         </div>
