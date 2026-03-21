@@ -52,7 +52,6 @@ $this->section('content');
                                 <?= session('errors.password') ?>
                             </div>
                         </div>
-
                         <div class="form-group">
                             <label for="pass_confirm"><?= lang('Auth.newPasswordRepeat') ?></label>
                             <input type="password"
