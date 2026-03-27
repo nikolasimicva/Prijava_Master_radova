@@ -29,7 +29,6 @@ $this->section('content');
                                 <?= session('errors.token') ?>
                             </div>
                         </div>
-
                         <div class="form-group">
                             <label for="email"><?= lang('Auth.email') ?></label>
                             <input type="email"
