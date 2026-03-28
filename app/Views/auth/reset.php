@@ -18,7 +18,6 @@ $this->section('content');
 
                     <form action="<?= route_to('reset-password') ?>" method="post">
                         <?= csrf_field() ?>
-
                         <div class="form-group">
                             <label for="token"><?= lang('Auth.token') ?></label>
                             <input type="text"
