@@ -7,7 +7,6 @@ $this->section('content');
     <br>
     <div class="row">
         <div class="col-sm-6 offset-sm-3">
-
             <div class="card">
                 <h2 class="card-header"><?= lang('Auth.resetYourPassword') ?></h2>
                 <div class="card-body">
