@@ -37,8 +37,7 @@
     echo link_tag('css/styles.css');
     ?>
 
-    <title>Oбразложење теме</title>
-    
+    <title>Oбразложење теме</title>  
 </head>
 
 <body>
