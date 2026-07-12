@@ -79,10 +79,12 @@ $this->section('content');
             echo anchor('komisija/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
         </td>
+
         <?php 
         echo "</tr>"; }
         echo "</table>";
         ?>
+        
     </div>
 </div>
 
