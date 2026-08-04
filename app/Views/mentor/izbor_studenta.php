@@ -136,7 +136,7 @@ $link = [
         </td>
 
             <?php 
-        echo "</tr>"; }
+            echo "</tr>"; }
         echo "</table>";
         ?>
         
