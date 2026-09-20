@@ -113,6 +113,7 @@ $this->section('content');
                 <th class="text-center"></th>
             </tr>
         </thead>
+        
         <?php
         while($row = mysqli_fetch_array($result)){  
         echo "<tr>";
