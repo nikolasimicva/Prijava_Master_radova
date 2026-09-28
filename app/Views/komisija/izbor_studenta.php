@@ -135,10 +135,12 @@ $this->section('content');
             ?>
             
         </td>
-        <td class="text-center">      
+        <td class="text-center">   
+
             <?php
             echo anchor('komisija/biografija_azuriraj/'.$row['id_student'], 'погледај', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
                 <td class="text-center">        
                 <div>
@@ -165,10 +167,12 @@ $this->section('content');
                 <td class="text-center">      
             <button onclick="myFunction(<?php echo($row['id_student'])?>)" class="btn btn-outline-dark">Потребне измене</button>
         </td>
+
         <?php
         echo "</tr>"; }
         echo "</table>";
         ?>
+        
     </div>
 </div>
                         </div>
