@@ -51,6 +51,7 @@ $this->section('content');
 <h1 class="mt-4">Одредите одлуку о теми студента</h1>
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
+        
         <?php
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $query = "SELECT *
@@ -59,6 +60,7 @@ $this->section('content');
         $result = mysqli_query($con, $query);
         echo "<table>"; 
         ?>
+
         <table class="table table-striped custab">
         <thead>
             <tr style="width:120%">
@@ -69,6 +71,7 @@ $this->section('content');
                 <th class="text-center" style="width:10%">Измене</th>
             </tr>
         </thead>
+        
         <?php
         while($row = mysqli_fetch_array($result)){       
         echo "<tr>";
@@ -76,16 +79,21 @@ $this->section('content');
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['autor'] . "</td>";
         echo "<td class='text-center'>" . $row['naslov'] . "</td>";
-        ?>       
+        ?>  
+
         <td class="text-center">  
+            
             <?php
             echo anchor('komisija/izbor_studenta/', 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
+        
         <?php 
         echo "</tr>"; }
         echo "</table>";
         ?>
+        
     </div>
 </div>
 
