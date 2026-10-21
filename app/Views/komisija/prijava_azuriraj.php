@@ -157,9 +157,11 @@ $this->section('content');
             </div>
             <div class='col-2'>
             <p></p>
+
             <?php
             echo anchor('stsluzba/vec_prihvacena/'.$id_student, 'Измени већ прихваћену пријаву за студента '.$id_student, ['class' => 'btn btn-primary btn-block']);            
             ?> 
+            
             </div> 
     </form>
 </div>
