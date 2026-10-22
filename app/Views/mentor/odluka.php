@@ -18,11 +18,17 @@ $link = [
             </a>
             <div class="sb-sidenav-menu-heading">Статус пријаве
             </div>
+
             <?php foreach ($link as $text => $url) : ?>
+
             <li class="nav-item mx-0 mx-lg-1">
-                <?= anchor($url, $text, ['class' => 'nav-link']) ?>
+                
+            <?= anchor($url, $text, ['class' => 'nav-link']) ?>
+
             </li>
+
             <?php endforeach; ?>
+            
             <a class="nav-link" href="index.html">
                 Негде тамо далеко
             </a>
