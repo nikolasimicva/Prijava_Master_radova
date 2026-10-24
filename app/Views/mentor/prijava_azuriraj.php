@@ -152,14 +152,18 @@ $this->section('content');
             <button type="submit" class="btn btn-primary btn-block">Ажурирајте пријаву</button>
             <br/> 
             <p></p>
+            
             <?php
             echo anchor('mentor/vrati_studentu/'.$id_student, 'Врати пријаву студенту', ['class' => 'btn btn-primary btn-block']);            
             ?>
+
             <br/> 
             <p></p>
-            <?php
+           
+           <?php
             echo anchor('mentor/prosledi_rukovodiocu/'.$id_student, 'Проследи пријаву студента  '.$id_student.' руководиоцу', ['class' => 'btn btn-primary btn-block']);            
             ?>
+
     </form>
 </div>
 
