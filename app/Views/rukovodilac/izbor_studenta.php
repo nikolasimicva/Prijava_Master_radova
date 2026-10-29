@@ -91,6 +91,7 @@ $link = [
 <div class="container">
     <div class="row col-md-9 col-md-offset-2 custyle">
     <table class="table table-striped custab">
+        
         <?php
         $con=mysqli_connect("localhost","root","","etfphpprojekat");
         $data = user_id();
@@ -107,6 +108,7 @@ $link = [
         $result = mysqli_query($con, $query);
         echo "<table>"; 
         ?>
+
         <table class="table table-striped custab">
         <thead>
             <tr>
@@ -117,12 +119,14 @@ $link = [
                 <th class="text-center">Биографија</th>
             </tr>
         </thead>
+       
         <?php
         while($row = mysqli_fetch_array($result)){   
         echo "<tr>";
         echo "<td class='text-center'>" . $row['id'] . "</td>";
         echo "<td class='text-center'>" . $row['username'] . "</td>";
         ?>
+        
         <td class="text-center"> 
             <?php 
             echo anchor('rukovodilac/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']); 
