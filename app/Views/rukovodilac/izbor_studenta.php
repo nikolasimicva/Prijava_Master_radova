@@ -128,24 +128,32 @@ $link = [
         ?>
         
         <td class="text-center"> 
+            
             <?php 
             echo anchor('rukovodilac/prijava_azuriraj/'.$row['id'], 'измени', ['class' => 'btn btn-outline-dark ml-2']); 
             ?>
+
         </td>
         <td class="text-center"> 
+            
             <?php
             echo anchor('rukovodilac/obrazlozenje_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
         <td class="text-center">       
+            
             <?php
             echo anchor('rukovodilac/biografija_azuriraj/'.$row['id_student'], 'измени', ['class' => 'btn btn-outline-dark ml-2']);
             ?>
+
         </td>
+            
             <?php 
             echo "</tr>"; }
             echo "</table>";
             ?>
+            
     </div>
 </div>
                         </div>
