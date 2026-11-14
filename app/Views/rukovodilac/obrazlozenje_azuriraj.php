@@ -85,8 +85,6 @@ $this->section('content');
                 </div>
                 <br>
 
-
-
                 <h3 class="mt-6">Коментари</h3>
                 <div class="form-group">
                     <label for="komentari"></label>
