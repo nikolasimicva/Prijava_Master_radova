@@ -83,10 +83,12 @@ $link = [
             ?>
         
     </td>
+
         <?php 
         echo "</tr>"; }
         echo "</table>";  
         ?>
+        
     </div>
 </div>
 
